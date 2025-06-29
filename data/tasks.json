@@ -1,0 +1,3966 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Beginner",
+    "title": "Personal Portfolio with Blog",
+    "description": ": Create a personal portfolio website with an integrated blog where users can add, edit, and delete posts. This is an excellent project for learning the basics of frontend and backend development and gaining foundational experience in React and Next.js.",
+    "techStack": [
+      ": Next.js",
+      "Tailwind CSS",
+      "Markdown for blogging",
+      "Firebase for data storage."
+    ],
+    "features": [
+      "User-friendly UI with responsive design",
+      "Basic authentication for blog management",
+      "Markdown editor for creating blog posts",
+      "Dynamic routing for blog posts and pages"
+    ],
+    "learningPath": ": HTML/CSS basics, React components, Next.js routing, Firebase basics.",
+    "openSourceFocus": ": Provides a beginner-friendly open-source project for new developers to contribute and learn."
+  },
+  {
+    "id": 2,
+    "difficulty": "Intermediate",
+    "title": "E-commerce Platform",
+    "description": ": Build a full-featured e-commerce website with product listings, a shopping cart, and a payment gateway. This project introduces more complex frontend features and backend integration, perfect for expanding JS and React skills.",
+    "techStack": [
+      ": React",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Stripe for payments",
+      "Zustand for state management."
+    ],
+    "features": [
+      "Product search, filter, and sorting",
+      "Shopping cart and checkout process",
+      "Payment integration with Stripe",
+      "User profiles with order history"
+    ],
+    "learningPath": ": API development with Node.js, managing state with Zustand, and integrating payment systems.",
+    "openSourceFocus": ": Aimed at demonstrating full-stack architecture with Node.js and MongoDB, making it a helpful reference for e-commerce development."
+  },
+  {
+    "id": 3,
+    "difficulty": "Advanced Beginner",
+    "title": "Social Media Dashboard",
+    "description": ": A lightweight social media dashboard where users can track analytics from various social media platforms. This app focuses on frontend skills with API integration and asynchronous data handling.",
+    "techStack": [
+      ": React",
+      "Tailwind CSS",
+      "REST APIs (Twitter",
+      "YouTube",
+      "Instagram)."
+    ],
+    "features": [
+      "Data visualization with charts (using Chart.js)",
+      "OAuth authentication for connecting social accounts",
+      "Summary metrics for followers, views, likes, etc.",
+      "Dark mode and user-friendly UI"
+    ],
+    "learningPath": ": RESTful API handling, OAuth basics, data visualization.",
+    "openSourceFocus": ": Builds knowledge on using social media APIs and handling user authentication, great for contributors learning frontend-heavy development."
+  },
+  {
+    "id": 4,
+    "difficulty": "Intermediate",
+    "title": "Real-time Chat Application",
+    "description": ": Develop a chat app with real-time messaging, channels, and private messaging. Users can send files and create groups, making it an ideal project for understanding websockets and handling asynchronous events.",
+    "techStack": [
+      ": MERN (MongoDB",
+      "Express",
+      "React",
+      "Node.js)",
+      "Socket.IO for real-time messaging",
+      "JWT for authentication."
+    ],
+    "features": [
+      "Real-time messaging and file sharing",
+      "Channel creation and group chats",
+      "Typing indicators and user online status",
+      "User authentication and profile management"
+    ],
+    "learningPath": ": Socket.IO, JWT, MongoDB CRUD, and frontend state management.",
+    "openSourceFocus": ": Contributes to open-source chat projects and offers hands-on experience with real-time data."
+  },
+  {
+    "id": 5,
+    "difficulty": "Advanced",
+    "title": "Full-Stack Video Streaming Platform",
+    "description": ": Build a video streaming platform similar to YouTube with video uploads, streaming, and recommendations. This project covers advanced frontend and backend concepts, such as media handling, data streaming, and video encoding.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "HLS for video streaming",
+      "AWS S3 for storage."
+    ],
+    "features": [
+      "Video upload and encoding with HLS",
+      "Content search, recommendations, and categories",
+      "Commenting and likes/dislikes on videos",
+      "User authentication and video history tracking"
+    ],
+    "learningPath": ": Media storage and processing, MongoDB aggregation, and CDN integration.",
+    "openSourceFocus": ": Introduces contributors to video streaming, storage, and encoding techniques, valuable for media-heavy applications."
+  },
+  {
+    "id": 6,
+    "difficulty": "Advanced",
+    "title": "Task Management App with Kanban and Real-time Collaboration",
+    "description": ": Create a task management platform with a Kanban board that supports real-time collaboration between users. The app should allow users to assign tasks, set deadlines, and track progress collaboratively.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "GraphQL",
+      "Apollo",
+      "WebSockets for real-time collaboration."
+    ],
+    "features": [
+      "Task creation, assignment, and tracking",
+      "Real-time collaboration and notifications",
+      "Kanban board and drag-and-drop functionality",
+      "Team member roles and permissions"
+    ],
+    "learningPath": ": GraphQL and Apollo, WebSockets, advanced React state management.",
+    "openSourceFocus": ": Useful as a collaborative productivity tool, introduces GraphQL and real-time features to contributors."
+  },
+  {
+    "id": 7,
+    "difficulty": "Expert",
+    "title": "Decentralized Marketplace on Blockchain",
+    "description": ": Develop a decentralized marketplace where users can list items for sale, bid, or buy with cryptocurrency. The project provides hands-on experience with blockchain, smart contracts, and decentralized applications (dApps).",
+    "techStack": [
+      ": Solidity",
+      "Next.js",
+      "MetaMask for wallet integration",
+      "ethers.js",
+      "IPFS for decentralized storage."
+    ],
+    "features": [
+      "Smart contracts for item listings, bidding, and transactions",
+      "User wallet integration and profile management",
+      "Transaction history with blockchain integration",
+      "Secure storage for assets with IPFS"
+    ],
+    "learningPath": ": Solidity smart contracts, Web3 integrations, and decentralized storage with IPFS.",
+    "openSourceFocus": ": Supports blockchain and Web3 open-source community, enabling contributors to learn decentralized marketplace fundamentals."
+  },
+  {
+    "id": 8,
+    "difficulty": "Expert",
+    "title": "AI-powered Image and Video Editor",
+    "description": ": Create an AI-powered image and video editor with advanced capabilities like background removal, color grading, and face detection. This project combines AI with practical applications in media editing.",
+    "techStack": [
+      ": Next.js",
+      "Python (for AI models)",
+      "TensorFlow.js",
+      "FFMPEG",
+      "AWS Lambda for backend processing."
+    ],
+    "features": [
+      "Background removal and object detection",
+      "Filters and effects with real-time previews",
+      "Basic video editing tools (trimming, merging)",
+      "Export options and quality settings"
+    ],
+    "learningPath": ": Image processing, TensorFlow.js, video processing with FFMPEG.",
+    "openSourceFocus": ": Bridges media editing and AI, providing a complex, real-world project for AI in frontend."
+  },
+  {
+    "id": 9,
+    "difficulty": "Expert",
+    "title": "SaaS Project Management Tool",
+    "description": ": Build a project management SaaS platform that features task tracking, project timelines, and collaboration tools, ideal for freelancers and teams. This project introduces full-scale SaaS architecture, security, and subscription management.",
+    "techStack": [
+      ": React",
+      "Next.js",
+      "Node.js",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe for subscription management",
+      "WebSockets for real-time updates."
+    ],
+    "features": [
+      "Multi-tenant setup with project workspaces",
+      "Real-time updates and notifications",
+      "Role-based access control (RBAC) for team management",
+      "Payment integration and subscription management with Stripe"
+    ],
+    "learningPath": ": Multi-tenant applications, payment systems, and advanced backend management.",
+    "openSourceFocus": ": High-value SaaS project for open-source, useful as a blueprint for subscription-based services."
+  },
+  {
+    "id": 10,
+    "difficulty": "Beginner",
+    "title": "Weather Dashboard",
+    "description": ": Build a weather dashboard that shows real-time weather information and forecasts for selected cities. Great for learning API integration and data display.",
+    "techStack": [
+      ": React",
+      "OpenWeatherMap API",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Search for weather by city",
+      "Display current temperature, humidity, and weather conditions",
+      "7-day weather forecast",
+      "Dark mode support"
+    ],
+    "learningPath": ": API requests with Axios, basic state management, and component structuring.",
+    "openSourceFocus": ": Helps new developers understand API-driven applications, perfect for simple contributions."
+  },
+  {
+    "id": 11,
+    "difficulty": "Intermediate",
+    "title": "Recipe Sharing App",
+    "description": ": Create a platform where users can browse, add, and share recipes. Users can filter by ingredients, cuisine, and dietary preferences.",
+    "techStack": [
+      ": Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Firebase for authentication."
+    ],
+    "features": [
+      "Recipe listing and detailed view",
+      "User authentication and profile management",
+      "Search and filter by ingredients and dietary restrictions",
+      "Favorite and save recipes"
+    ],
+    "learningPath": ": MongoDB for data storage, search/filter functionality, and authentication.",
+    "openSourceFocus": ": A collaborative project where contributors can add features or recipes."
+  },
+  {
+    "id": 12,
+    "difficulty": "Advanced",
+    "title": "Real-Time Multiplayer Game",
+    "description": ": Build a real-time multiplayer game where players can join rooms, interact, and compete in mini-games. A fun project to dive into WebSockets and game logic.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Socket.IO",
+      "Canvas API for graphics."
+    ],
+    "features": [
+      "Lobby and room management",
+      "Real-time player movement and actions",
+      "Game scoring and leaderboard",
+      "Chat within game rooms"
+    ],
+    "learningPath": ": WebSockets, game state management, and real-time interaction.",
+    "openSourceFocus": ": Promotes understanding of game logic and real-time systems in collaborative open-source environments."
+  },
+  {
+    "id": 13,
+    "difficulty": "Intermediate",
+    "title": "Blogging Platform with Markdown Editor",
+    "description": ": A blogging platform where users can write, edit, and publish posts using a Markdown editor. Users can view and comment on each other's posts.",
+    "techStack": [
+      ": Next.js",
+      "MongoDB",
+      "Markdown",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Rich text and Markdown editor for posts",
+      "Commenting on posts",
+      "User profile and post history",
+      "Like, share, and save articles"
+    ],
+    "learningPath": ": Working with Markdown, CRUD operations with MongoDB, and state management.",
+    "openSourceFocus": ": Provides a great opportunity for collaborative contributions in building additional features."
+  },
+  {
+    "id": 14,
+    "difficulty": "Advanced Beginner",
+    "title": "Pomodoro Timer with Task Management",
+    "description": ": A Pomodoro timer app where users can track their focus sessions and create tasks with time goals.",
+    "techStack": [
+      ": React",
+      "Local Storage for persistence",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Timer for 25-minute focus sessions and 5-minute breaks",
+      "Task list with time estimates and completed tracking",
+      "Sound and notification reminders",
+      "Dark mode option"
+    ],
+    "learningPath": ": React hooks, component-based UI, and local state management.",
+    "openSourceFocus": ": A beginner-friendly project that allows others to contribute custom features like themes and task statistics."
+  },
+  {
+    "id": 15,
+    "difficulty": "Advanced",
+    "title": "Full-Stack Social Media Platform",
+    "description": ": Build a fully functional social media platform where users can create profiles, share posts, follow others, and like content.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "GraphQL",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "User authentication and profile management",
+      "Post creation, editing, and deletion",
+      "Follower system and notifications",
+      "Real-time feed updates and comment section"
+    ],
+    "learningPath": ": GraphQL for data handling, MongoDB for relational data, and API security.",
+    "openSourceFocus": ": Great for contributing various modules like the follower system, post analytics, or advanced feed algorithms."
+  },
+  {
+    "id": 16,
+    "difficulty": "Intermediate",
+    "title": "Expense Tracker with Budget Analysis",
+    "description": ": Build an app that allows users to log their expenses, categorize them, and analyze spending trends over time.",
+    "techStack": [
+      ": React",
+      "Firebase for storage",
+      "Chart.js for data visualization."
+    ],
+    "features": [
+      "Add, edit, and delete expense entries",
+      "Categorization of expenses",
+      "Monthly and yearly expense reports",
+      "Graphical charts for spending analysis"
+    ],
+    "learningPath": ": CRUD with Firebase, data visualization, and state management.",
+    "openSourceFocus": ": Provides a foundational finance app where contributors can add budget planning, notifications, and other customizations."
+  },
+  {
+    "id": 17,
+    "difficulty": "Advanced Beginner",
+    "title": "News Aggregator with Category Filters",
+    "description": ": Create a news aggregation app that pulls in news from various sources and allows users to filter by categories like technology, sports, and health.",
+    "techStack": [
+      ": React",
+      "News API",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Real-time news updates by category",
+      "Search functionality for specific news",
+      "Responsive and visually engaging layout",
+      "Bookmark feature for saving articles"
+    ],
+    "learningPath": ": API integration, handling data asynchronously, and dynamic filtering.",
+    "openSourceFocus": ": Enables contributors to add customizations such as new categories, article recommendations, and theme settings."
+  },
+  {
+    "id": 18,
+    "difficulty": "Expert",
+    "title": "Crypto Portfolio Tracker",
+    "description": ": Develop a cryptocurrency portfolio tracker where users can monitor and analyze the value of their crypto holdings.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "Coingecko API."
+    ],
+    "features": [
+      "Add and manage multiple cryptocurrencies",
+      "Real-time price updates and portfolio valuation",
+      "Graphs for value history and price alerts",
+      "Integration with major wallets like MetaMask"
+    ],
+    "learningPath": ": Crypto API integration, handling financial data, and portfolio analysis.",
+    "openSourceFocus": ": Aimed at crypto enthusiasts, it allows for contributions such as support for new coins, detailed analytics, and wallet integrations."
+  },
+  {
+    "id": 19,
+    "difficulty": "Intermediate",
+    "title": "Language Translation App with History",
+    "description": ": Build a translation app where users can translate phrases into multiple languages and view their translation history.",
+    "techStack": [
+      ": Next.js",
+      "Google Translation API",
+      "Local Storage for history."
+    ],
+    "features": [
+      "Text input and translation to multiple languages",
+      "Translation history with timestamps",
+      "Option to save favorite translations",
+      "Simple and intuitive UI"
+    ],
+    "learningPath": ": Working with third-party APIs, handling asynchronous data, and local storage.",
+    "openSourceFocus": ": Perfect for contributors to enhance with new language packs, voice input, or favorite phrases."
+  },
+  {
+    "id": 20,
+    "difficulty": "Advanced",
+    "title": "AI-powered Document Scanner and Analyzer",
+    "description": ": Create a document scanner app that uses OCR (Optical Character Recognition) to scan documents and extract text. Optionally, add AI to categorize and analyze content.",
+    "techStack": [
+      ": React",
+      "Python (for OCR)",
+      "TensorFlow.js",
+      "AWS Lambda for backend processing."
+    ],
+    "features": [
+      "Document scanning and text extraction",
+      "Text categorization using AI",
+      "Save scanned documents and export as PDF",
+      "Optical character recognition for multi-language support"
+    ],
+    "learningPath": ": OCR processing, integrating AI for text analysis, and document management.",
+    "openSourceFocus": ": Provides real-world use cases of AI, allowing contributors to add support for additional languages and image enhancements."
+  },
+  {
+    "id": 21,
+    "difficulty": "Beginner",
+    "title": "Habit Tracker with Progress Analytics",
+    "description": ": Build a habit tracker where users can log daily habits and view progress over time. A simple project focused on data persistence and analytics.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Chart.js for visualization",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Track daily habits with simple toggles",
+      "Progress analytics with weekly and monthly overviews",
+      "Customizable habit names and icons",
+      "Dark mode support"
+    ],
+    "learningPath": ": State management, basic data persistence, and chart integration.",
+    "openSourceFocus": ": Great for beginners, allowing contributors to add habit streaks, reminders, and category grouping."
+  },
+  {
+    "id": 22,
+    "difficulty": "Intermediate",
+    "title": "Fitness and Workout Planner",
+    "description": ": Create a fitness app where users can build workout routines, set goals, and track progress. An ideal project to build CRUD functionality and understand data modeling.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Tailwind CSS",
+      "and Framer Motion for animations."
+    ],
+    "features": [
+      "Create, edit, and delete workout plans",
+      "Daily progress tracking and goal setting",
+      "Exercise library with searchable routines",
+      "Visual animations for a dynamic user experience"
+    ],
+    "learningPath": ": Firebase for data storage, CRUD operations, and frontend animations.",
+    "openSourceFocus": ": Provides a collaborative base for adding new exercises, plan recommendations, or motivational features."
+  },
+  {
+    "id": 23,
+    "difficulty": "Advanced Beginner",
+    "title": "Personal Finance Tracker with Budgeting",
+    "description": ": Build an app for tracking daily expenses, budgeting, and analyzing spending. Focuses on financial data entry and visualization.",
+    "techStack": [
+      ": React",
+      "Firebase or Local Storage",
+      "Chart.js",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and categorize expenses",
+      "Set budgets and track progress",
+      "Graphs for spending analysis by category",
+      "Notifications when nearing budget limits"
+    ],
+    "learningPath": ": Financial data handling, Chart.js for graphs, and Firebase basics.",
+    "openSourceFocus": ": Encourages contributions for advanced analytics, recurring expenses, and budget templates."
+  },
+  {
+    "id": 24,
+    "difficulty": "Intermediate",
+    "title": "Book Recommendation System",
+    "description": ": Create a book recommendation system where users can search for books, read reviews, and get recommendations based on interests.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Google Books API."
+    ],
+    "features": [
+      "Search for books and view details",
+      "User reviews and ratings",
+      "Recommendation engine based on user preferences",
+      "User profiles with favorite books"
+    ],
+    "learningPath": ": API integration, recommendation algorithms, and data persistence with MongoDB.",
+    "openSourceFocus": ": Great for adding new recommendation features, genre tagging, and user engagement analytics."
+  },
+  {
+    "id": 25,
+    "difficulty": "Advanced",
+    "title": "Video Conference Platform with Screen Sharing",
+    "description": ": Develop a video conferencing platform supporting multiple participants, screen sharing, and chat functionalities.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "WebRTC for video",
+      "Socket.IO",
+      "and Firebase for storage."
+    ],
+    "features": [
+      "Video and audio calls with multiple participants",
+      "Screen sharing and chat during calls",
+      "Mute/unmute and video toggle options",
+      "Session history and participant tracking"
+    ],
+    "learningPath": ": WebRTC for video streaming, real-time data with Socket.IO, and media management.",
+    "openSourceFocus": ": Perfect for adding recording functionality, enhanced chat features, or meeting analytics."
+  },
+  {
+    "id": 26,
+    "difficulty": "Advanced Beginner",
+    "title": "Daily Journal App with Calendar Integration",
+    "description": ": Create a journaling app that allows users to write daily entries and view them on a calendar. Helps with data handling and integrating calendars.",
+    "techStack": [
+      ": React",
+      "Firebase for storage",
+      "Calendar API."
+    ],
+    "features": [
+      "Daily journal entry with rich text",
+      "Calendar view to access past entries",
+      "Mood tracking with each entry",
+      "Data export option to PDF"
+    ],
+    "learningPath": ": Calendar API integration, rich text management, and CRUD operations.",
+    "openSourceFocus": ": Allows contributors to add mood analytics, sentiment analysis, or custom themes."
+  },
+  {
+    "id": 27,
+    "difficulty": "Intermediate",
+    "title": "Restaurant Reservation System",
+    "description": ": Build a restaurant reservation system that allows users to book tables and see availability in real-time.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "and WebSockets for real-time updates."
+    ],
+    "features": [
+      "Book, modify, or cancel reservations",
+      "View available times and table options",
+      "Notifications for booking confirmations",
+      "Admin panel to manage reservations"
+    ],
+    "learningPath": ": Real-time booking, MongoDB for database management, and server-client communication.",
+    "openSourceFocus": ": Ideal for adding admin dashboards, restaurant analytics, or support for group reservations."
+  },
+  {
+    "id": 28,
+    "difficulty": "Expert",
+    "title": "Health Data Dashboard with IoT Integration",
+    "description": ": Create a dashboard that collects health data (e.g., heart rate, steps) from IoT devices and visualizes it with trends and analysis.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "Firebase",
+      "IoT API integration",
+      "and Chart.js for visualization."
+    ],
+    "features": [
+      "Real-time data sync with IoT health devices",
+      "Weekly and monthly health reports",
+      "Visualization of heart rate, sleep patterns, etc.",
+      "Health goals and progress tracking"
+    ],
+    "learningPath": ": IoT integration, real-time data handling, and data analytics.",
+    "openSourceFocus": ": Supports additions like data export, alerts for abnormal readings, and wearable compatibility."
+  },
+  {
+    "id": 29,
+    "difficulty": "Advanced Beginner",
+    "title": "Recipe Sharing App with Voice Recognition",
+    "description": ": Build a recipe app where users can add, edit, and share recipes, with the unique addition of voice recognition for hands-free cooking.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Speech Recognition API",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Voice instructions for hands-free cooking",
+      "Recipe search and filter",
+      "Add and edit personal recipes",
+      "User reviews and ratings"
+    ],
+    "learningPath": ": Working with voice recognition, CRUD operations, and user engagement.",
+    "openSourceFocus": ": Contributors can add new cuisines, personalized recommendations, or integration with smart kitchen devices."
+  },
+  {
+    "id": 30,
+    "difficulty": "Expert",
+    "title": "AI-powered Language Learning Platform",
+    "description": ": Create a language learning platform with AI-powered grammar checks, pronunciation guides, and flashcards.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "TensorFlow.js",
+      "Firebase",
+      "and Speech Recognition API."
+    ],
+    "features": [
+      "AI grammar checks for writing exercises",
+      "Pronunciation feedback and guide",
+      "Flashcards with spaced repetition",
+      "Weekly progress and goal tracking"
+    ],
+    "learningPath": ": NLP with TensorFlow.js, spaced repetition algorithms, and API integration.",
+    "openSourceFocus": ": Supports development of additional languages, new flashcards, or pronunciation analytics."
+  },
+  {
+    "id": 31,
+    "difficulty": "Intermediate",
+    "title": "Music Playlist Generator with Recommendations",
+    "description": ": Develop an app that generates personalized playlists based on mood, genre, and user activity. Integrate with music APIs for data.",
+    "techStack": [
+      ": React",
+      "Spotify API",
+      "Node.js",
+      "MongoDB."
+    ],
+    "features": [
+      "Mood and genre-based playlist generation",
+      "Add and save custom playlists",
+      "User activity-based recommendations",
+      "Integration with Spotify for playback"
+    ],
+    "learningPath": ": API integration with Spotify, data filtering, and mood analysis.",
+    "openSourceFocus": ": Great for adding new music sources, playlist themes, and personalized recommendations."
+  },
+  {
+    "id": 32,
+    "difficulty": "Advanced",
+    "title": "Job Application Tracker",
+    "description": ": Build an app to track job applications, including statuses, deadlines, and networking contacts. Helpful for job seekers to stay organized.",
+    "techStack": [
+      ": Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Firebase."
+    ],
+    "features": [
+      "Add, edit, and organize job applications",
+      "Track statuses (e.g., applied, interviewed, offered)",
+      "Reminders for follow-ups and deadlines",
+      "Company research and notes"
+    ],
+    "learningPath": ": Database CRUD operations, reminder notifications, and user profile management.",
+    "openSourceFocus": ": Encourages open-source development for additional tools, such as calendar integration or job search links."
+  },
+  {
+    "id": 33,
+    "difficulty": "Expert",
+    "title": "Real-Time Cryptocurrency Trading Simulator",
+    "description": ": Create a simulated cryptocurrency trading platform where users can trade with virtual currency based on real-time market data.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "Coingecko API",
+      "MongoDB."
+    ],
+    "features": [
+      "Real-time cryptocurrency price updates",
+      "Buy and sell cryptocurrencies with virtual funds",
+      "Track portfolio growth and performance",
+      "Leaderboard for top traders"
+    ],
+    "learningPath": ": Real-time market data integration, simulated trading mechanics, and portfolio analysis.",
+    "openSourceFocus": ": A platform to develop trading algorithms, risk analysis tools, or real-time market insights."
+  },
+  {
+    "id": 34,
+    "difficulty": "Beginner",
+    "title": "To-Do List with Reminders",
+    "description": ": A simple to-do list app where users can create tasks, set deadlines, and receive reminders. Ideal for beginners learning CRUD and local storage.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Notification API",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and delete tasks",
+      "Set deadlines and receive notifications",
+      "Mark tasks as completed",
+      "Priority-based task sorting"
+    ],
+    "learningPath": ": CRUD operations, local storage for data persistence, and notifications.",
+    "openSourceFocus": ": Allows contributors to add features like color-coded priority levels, sub-tasks, and recurring reminders."
+  },
+  {
+    "id": 35,
+    "difficulty": "Intermediate",
+    "title": "Personal Budget Tracker with Monthly Analysis",
+    "description": ": A budgeting app that helps users categorize and analyze expenses on a monthly basis.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js for analytics",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add expenses with category tags",
+      "Monthly analysis of spending habits",
+      "Set budgets for each category",
+      "Visual data representation with graphs"
+    ],
+    "learningPath": ": Firebase for CRUD, data visualization with Chart.js, and frontend component management.",
+    "openSourceFocus": ": Great for adding custom features like predictive analytics, alerts for overspending, or integration with bank APIs."
+  },
+  {
+    "id": 36,
+    "difficulty": "Advanced Beginner",
+    "title": "Task Timer with Pomodoro Technique",
+    "description": ": A productivity tool that helps users focus on tasks using the Pomodoro technique, including work intervals and break reminders.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS",
+      "Notification API."
+    ],
+    "features": [
+      "25-minute work intervals with 5-minute breaks",
+      "Notifications for work and break start/end",
+      "Task list with completion tracking",
+      "Timer reset and customization options"
+    ],
+    "learningPath": ": Managing timers with JavaScript, local storage for data persistence, and React hooks.",
+    "openSourceFocus": ": Encourages contributions for feature expansion, such as customizable intervals, sound notifications, and task analytics."
+  },
+  {
+    "id": 37,
+    "difficulty": "Advanced",
+    "title": "Personal Document Vault with Encryption",
+    "description": ": A secure vault where users can upload and store personal documents with encryption for privacy.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "Crypto.js for encryption",
+      "AWS S3 for storage."
+    ],
+    "features": [
+      "Upload, organize, and delete documents",
+      "End-to-end encryption for document security",
+      "User authentication and access control",
+      "Tagging and search functionality"
+    ],
+    "learningPath": ": Encryption basics, secure document handling, and storage with AWS S3.",
+    "openSourceFocus": ": Adds value to the open-source community by demonstrating encryption and secure data storage."
+  },
+  {
+    "id": 38,
+    "difficulty": "Expert",
+    "title": "Job Search Engine with Custom Filters",
+    "description": ": A job search platform that aggregates job listings and allows users to filter results by skills, location, and experience level.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Web Scraping for job data."
+    ],
+    "features": [
+      "Advanced search and filter options",
+      "Bookmark and apply for jobs directly",
+      "User profiles with saved job searches",
+      "Email notifications for new listings"
+    ],
+    "learningPath": ": Web scraping, database management, and data filtering techniques.",
+    "openSourceFocus": ": Encourages contributions to integrate new job boards, refine filters, and expand notification features."
+  },
+  {
+    "id": 39,
+    "difficulty": "Intermediate",
+    "title": "Recipe Box with Ingredient Shopping List",
+    "description": ": An app where users can save favorite recipes and generate a shopping list based on selected ingredients.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Spoonacular API for recipes",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and save recipes",
+      "Ingredient-based shopping list generator",
+      "Search for recipes by ingredients",
+      "Share recipes with friends"
+    ],
+    "learningPath": ": API integration, dynamic data handling, and state management.",
+    "openSourceFocus": ": Contributors can add new features like diet-based filtering, recipe ratings, and grocery store integration."
+  },
+  {
+    "id": 40,
+    "difficulty": "Advanced",
+    "title": "Peer-to-Peer File Sharing App",
+    "description": ": A decentralized file-sharing app where users can share files directly with peers using WebRTC.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "WebRTC for peer-to-peer connections",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Secure file sharing between peers",
+      "File size limit and progress indicators",
+      "User authentication for private sharing",
+      "Chat feature during file transfer"
+    ],
+    "learningPath": ": WebRTC for peer-to-peer, file handling, and secure data transfer.",
+    "openSourceFocus": ": Ideal for contributors interested in improving decentralized systems, adding transfer encryption, and enhancing security features."
+  },
+  {
+    "id": 41,
+    "difficulty": "Expert",
+    "title": "AI-Driven Movie Recommendation System",
+    "description": ": Create a movie recommendation system that learns user preferences and recommends movies based on watch history.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "Machine Learning (Python backend)",
+      "TensorFlow.js."
+    ],
+    "features": [
+      "User profiles with favorite genres",
+      "Personalized movie recommendations",
+      "Machine learning model for user preferences",
+      "Rating system and watchlist"
+    ],
+    "learningPath": ": Machine learning model deployment, user data management, and personalized recommendations.",
+    "openSourceFocus": ": Allows contributors to enhance the recommendation algorithm, add support for new genres, or develop advanced filtering options."
+  },
+  {
+    "id": 42,
+    "difficulty": "Intermediate",
+    "title": "Travel Itinerary Planner with Maps Integration",
+    "description": ": A travel planner where users can create, edit, and save trip itineraries with an interactive map.",
+    "techStack": [
+      ": Next.js",
+      "Google Maps API",
+      "Firebase."
+    ],
+    "features": [
+      "Add and manage trip details and stops",
+      "Map integration for route planning",
+      "Itinerary sharing with friends",
+      "Budget estimation for trip expenses"
+    ],
+    "learningPath": ": Maps API integration, CRUD with Firebase, and data visualization.",
+    "openSourceFocus": ": Great for community contributions, like weather updates, suggested attractions, and sharing itineraries."
+  },
+  {
+    "id": 43,
+    "difficulty": "Advanced Beginner",
+    "title": "Book Library with Online Reading Tracker",
+    "description": ": A virtual book library where users can save and track reading progress for each book.",
+    "techStack": [
+      ": React",
+      "Local Storage or Firebase",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Save books and track reading progress",
+      "Rate and review completed books",
+      "Reading history and book recommendations",
+      "Search and filter by genre"
+    ],
+    "learningPath": ": CRUD functionality, state management, and user personalization.",
+    "openSourceFocus": ": Allows contributions for adding book ratings, reading goals, and book recommendations."
+  },
+  {
+    "id": 44,
+    "difficulty": "Intermediate",
+    "title": "Fitness Tracking App with GPS Integration",
+    "description": ": Build an app where users can track their workouts, including GPS-tracked running or cycling sessions.",
+    "techStack": [
+      ": React",
+      "Firebase for storage",
+      "Google Maps API for GPS."
+    ],
+    "features": [
+      "Track GPS-based activities (running, cycling)",
+      "Record distance, time, and calories burned",
+      "View route on a map with location markers",
+      "Set and track fitness goals"
+    ],
+    "learningPath": ": GPS tracking, Firebase for data management, and data visualization.",
+    "openSourceFocus": ": Contributions could include new workout types, analytics, and integration with fitness devices."
+  },
+  {
+    "id": 45,
+    "difficulty": "Expert",
+    "title": "E-commerce Platform with AI-powered Product Recommendations",
+    "description": ": Create an e-commerce platform with personalized recommendations powered by AI, including purchase and browsing history.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for AI recommendations",
+      "Stripe for payments."
+    ],
+    "features": [
+      "Product catalog with categories",
+      "AI-based personalized recommendations",
+      "Cart and checkout with Stripe integration",
+      "User profiles and order history"
+    ],
+    "learningPath": ": AI for recommendations, payment integration, and database management.",
+    "openSourceFocus": ": Useful for adding multi-vendor support, advanced analytics, and custom recommendation algorithms."
+  },
+  {
+    "id": 46,
+    "difficulty": "Intermediate",
+    "title": "Remote Team Collaboration Board",
+    "description": ": A Kanban-style project management board for remote teams to collaborate on tasks in real-time.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "WebSockets for real-time updates."
+    ],
+    "features": [
+      "Create and assign tasks to team members",
+      "Real-time board updates and notifications",
+      "Chat for team discussions",
+      "Analytics for team productivity"
+    ],
+    "learningPath": ": Real-time updates, task management, and team collaboration.",
+    "openSourceFocus": ": Allows the community to add advanced features like Gantt charts, task priorities, and file sharing."
+  },
+  {
+    "id": 47,
+    "difficulty": "Advanced Beginner",
+    "title": "Notes App with Rich Text Editing",
+    "description": ": A notes app with a rich text editor for creating and organizing notes, similar to Google Keep.",
+    "techStack": [
+      ": React",
+      "Local Storage for offline storage",
+      "Draft.js or Slate.js for rich text."
+    ],
+    "features": [
+      "Create, edit, and delete notes with rich text",
+      "Organize notes with tags and folders",
+      "Offline access with local storage",
+      "Search notes by content or tags"
+    ],
+    "learningPath": ": Working with rich text editors,",
+    "openSourceFocus": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Expert",
+    "title": "Real-Time Stock Market Dashboard",
+    "description": ": Develop a real-time stock market dashboard that displays stock data, trends, and news with AI-driven predictions.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "WebSocket for real-time data",
+      "Alpha Vantage API for stock data",
+      "TensorFlow.js for predictions."
+    ],
+    "features": [
+      "Real-time stock price updates",
+      "Visual stock trends with AI predictions",
+      "Personalized watchlists",
+      "News integration for stock updates"
+    ],
+    "learningPath": ": Real-time data management, AI prediction models, and user customization.",
+    "openSourceFocus": ": A collaborative project for financial tech, with room for contributors to add new stock sources, advanced analytics, and prediction algorithms."
+  },
+  {
+    "id": 49,
+    "difficulty": "Intermediate",
+    "title": "Mental Health Journal with Mood Tracking",
+    "description": ": Build a mental health journal app where users can log their mood and view trends over time.",
+    "techStack": [
+      ": React",
+      "Firebase for data storage",
+      "Chart.js for mood trends."
+    ],
+    "features": [
+      "Daily mood logging with tags",
+      "Mood trend analysis over weeks and months",
+      "Add journal entries for each day",
+      "Private, secure data storage"
+    ],
+    "learningPath": ": Firebase for storage, data analytics, and chart visualization.",
+    "openSourceFocus": ": Great for contributors interested in mental health, adding features like sentiment analysis, data export, and mood-based recommendations."
+  },
+  {
+    "id": 50,
+    "difficulty": "Advanced",
+    "title": "IoT Home Automation Dashboard",
+    "description": ": A home automation dashboard for managing and monitoring IoT-enabled devices like lights, thermostat, and security.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "Firebase",
+      "IoT APIs",
+      "Chart.js for data visualization."
+    ],
+    "features": [
+      "Connect and control IoT devices remotely",
+      "Real-time status updates and notifications",
+      "Energy usage reports and optimization tips",
+      "User profiles and access control for device management"
+    ],
+    "learningPath": ": IoT API integration, real-time control, and user access management.",
+    "openSourceFocus": ": Allows the community to contribute with new IoT device integrations, home automation scenarios, and energy-saving tips."
+  },
+  {
+    "id": 51,
+    "difficulty": "Beginner",
+    "title": "Flashcard App with Spaced Repetition",
+    "description": ": Create a flashcard app where users can add cards and use spaced repetition to improve memory retention.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize flashcards by category",
+      "Spaced repetition algorithm for study sessions",
+      "Track learning progress and review history",
+      "Notifications for daily review reminders"
+    ],
+    "learningPath": ": CRUD functionality, spaced repetition logic, and local storage.",
+    "openSourceFocus": ": Contributors can add progress analytics, different algorithms, and a collaborative study mode."
+  },
+  {
+    "id": 52,
+    "difficulty": "Intermediate",
+    "title": "Blogging Platform with Social Sharing",
+    "description": ": A blogging platform where users can write articles, comment on posts, and share on social media.",
+    "techStack": [
+      ": Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Firebase for auth."
+    ],
+    "features": [
+      "Article creation, editing, and deletion",
+      "Commenting and liking on posts",
+      "User profiles with follower counts",
+      "Social media sharing for articles"
+    ],
+    "learningPath": ": Authentication, database management, and social media API integration.",
+    "openSourceFocus": ": Allows for added features like article recommendations, trending tags, and enhanced social integrations."
+  },
+  {
+    "id": 53,
+    "difficulty": "Advanced Beginner",
+    "title": "Meme Generator with Templates",
+    "description": ": Create a meme generator where users can add captions to images and share them.",
+    "techStack": [
+      ": React",
+      "Firebase for image storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Template selection and custom captioning",
+      "Image resizing and formatting",
+      "Save and share memes with links",
+      "Search and filter by popular meme templates"
+    ],
+    "learningPath": ": Image manipulation, Firebase storage, and user interaction.",
+    "openSourceFocus": ": Users can contribute by adding new templates, sharing functionality, or advanced text editing."
+  },
+  {
+    "id": 54,
+    "difficulty": "Advanced",
+    "title": "Multiplayer Quiz Game",
+    "description": ": Develop a real-time multiplayer quiz game where users can compete in trivia questions.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Socket.IO",
+      "Firebase."
+    ],
+    "features": [
+      "Real-time question display and scoring",
+      "User lobby and chat during games",
+      "Timed questions and live leaderboards",
+      "Categories and difficulty levels for quizzes"
+    ],
+    "learningPath": ": WebSocket for real-time data, Firebase for persistence, and timer functionality.",
+    "openSourceFocus": ": Enables contributions like new question categories, difficulty customization, and in-game rewards."
+  },
+  {
+    "id": 55,
+    "difficulty": "Expert",
+    "title": "Virtual Reality Travel Experience",
+    "description": ": Create a VR travel app that simulates famous travel destinations with 360° views.",
+    "techStack": [
+      ": React",
+      "Three.js for 3D rendering",
+      "Firebase for data storage."
+    ],
+    "features": [
+      "360° views of famous landmarks",
+      "Information overlay for points of interest",
+      "Audio narration for immersive experiences",
+      "Favorites list to bookmark visited places"
+    ],
+    "learningPath": ": VR development with Three.js, data handling, and multimedia integration.",
+    "openSourceFocus": ": Contributions can add new locations, audio guides, and visual enhancements for a richer VR experience."
+  },
+  {
+    "id": 56,
+    "difficulty": "Intermediate",
+    "title": "Personal Finance Advisor with AI Analysis",
+    "description": ": A financial advisor app that provides spending insights and savings recommendations.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for AI",
+      "and Chart.js for data visualization."
+    ],
+    "features": [
+      "Track income, expenses, and savings",
+      "AI-powered insights based on spending habits",
+      "Monthly budget recommendations",
+      "Progress tracking with graphs"
+    ],
+    "learningPath": ": Machine learning, financial data management, and user personalization.",
+    "openSourceFocus": ": Allows for additional AI modules, spending suggestions, and enhanced financial analysis."
+  },
+  {
+    "id": 57,
+    "difficulty": "Advanced Beginner",
+    "title": "Virtual Journal with Mood Tracking",
+    "description": ": A journal app that allows users to log entries with mood tracking.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Tailwind CSS",
+      "Chart.js."
+    ],
+    "features": [
+      "Daily journal entry with mood indicators",
+      "Mood trend analysis over time",
+      "Secure storage and private access",
+      "Searchable journal history"
+    ],
+    "learningPath": ": CRUD with Firebase, chart integration, and authentication.",
+    "openSourceFocus": ": Contributors can add mood-based insights, additional journal themes, or export options."
+  },
+  {
+    "id": 58,
+    "difficulty": "Advanced",
+    "title": "E-commerce Store with Augmented Reality (AR)",
+    "description": ": Build an e-commerce store with AR functionality where users can preview products in their space.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "AR.js",
+      "Firebase for data storage."
+    ],
+    "features": [
+      "Product catalog with AR previews",
+      "Cart and checkout with Stripe integration",
+      "Product recommendations and reviews",
+      "User profiles with order history"
+    ],
+    "learningPath": ": AR.js for augmented reality, e-commerce flows, and payment integration.",
+    "openSourceFocus": ": Ideal for developing features like AR animations, new payment gateways, and improved AR product views."
+  },
+  {
+    "id": 59,
+    "difficulty": "Intermediate",
+    "title": "AI Chatbot with Contextual Understanding",
+    "description": ": A chatbot that provides responses based on context, useful for customer service.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Dialogflow for NLP",
+      "Firebase for data storage."
+    ],
+    "features": [
+      "Context-aware conversation flow",
+      "Customizable responses and triggers",
+      "User feedback for response improvement",
+      "Analytics for chatbot interactions"
+    ],
+    "learningPath": ": NLP with Dialogflow, data handling, and analytics.",
+    "openSourceFocus": ": Encourages contributions for new chatbot scripts, analytics features, and improved conversational accuracy."
+  },
+  {
+    "id": 60,
+    "difficulty": "Advanced",
+    "title": "Decentralized Voting System on Blockchain",
+    "description": ": A secure voting platform on blockchain for private and tamper-proof elections.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "Web3.js."
+    ],
+    "features": [
+      "Voter registration and verification",
+      "Tamper-proof voting and result transparency",
+      "Election history and audit trails",
+      "Wallet-based voting system"
+    ],
+    "learningPath": ": Blockchain smart contracts, decentralized apps, and Web3.js.",
+    "openSourceFocus": ": Contributions can focus on UI enhancements, integrating new voting methods, and analytics for results."
+  },
+  {
+    "id": 61,
+    "difficulty": "Beginner",
+    "title": "Daily Affirmations App",
+    "description": ": Build a daily affirmations app that delivers motivational quotes to users.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Daily affirmation notifications",
+      "Save favorite affirmations",
+      "Dark and light theme toggle",
+      "Customizable notification timing"
+    ],
+    "learningPath": ": Local storage, basic UI styling, and notification handling.",
+    "openSourceFocus": ": Great for new contributors to add more affirmations, personalized quotes, or voice-guided affirmations."
+  },
+  {
+    "id": 62,
+    "difficulty": "Advanced Beginner",
+    "title": "Markdown Note-Taking App",
+    "description": ": A note-taking app with Markdown support and text formatting options.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Write and format notes in Markdown",
+      "Organize notes with tags and folders",
+      "Autosave and version history for notes",
+      "Export notes to PDF"
+    ],
+    "learningPath": ": Markdown formatting, data storage, and text editing.",
+    "openSourceFocus": ": Contributors can add themes, Markdown extensions, and more export options."
+  },
+  {
+    "id": 63,
+    "difficulty": "Intermediate",
+    "title": "Real Estate Listing Platform",
+    "description": ": A real estate listing platform with filtering, map integration, and user favorites.",
+    "techStack": [
+      ": Next.js",
+      "MongoDB",
+      "Firebase",
+      "Google Maps API."
+    ],
+    "features": [
+      "Search and filter property listings",
+      "Map integration with location markers",
+      "User profiles with saved listings",
+      "Image galleries and property details"
+    ],
+    "learningPath": ": API integration, data management, and UI components.",
+    "openSourceFocus": ": Ideal for adding new filters, rental or purchase options, and additional map integrations."
+  },
+  {
+    "id": 64,
+    "difficulty": "Advanced",
+    "title": "Dynamic Data Dashboard with GraphQL",
+    "description": ": A dynamic data dashboard that allows users to fetch, filter, and visualize data from multiple APIs using GraphQL.",
+    "techStack": [
+      ": Next.js",
+      "Apollo GraphQL",
+      "MongoDB",
+      "Chart.js."
+    ],
+    "features": [
+      "GraphQL-based data fetching and filtering",
+      "Customizable widgets for data visualization",
+      "Data export options (CSV, PDF)",
+      "User authentication for saving dashboards"
+    ],
+    "learningPath": ": GraphQL, data visualization, and API integration.",
+    "openSourceFocus": ": Contributors can add new data sources, chart types, or export formats."
+  },
+  {
+    "id": 65,
+    "difficulty": "Intermediate",
+    "title": "Fitness Challenge App",
+    "description": ": An app for users to join fitness challenges, log progress, and earn points.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Tailwind CSS",
+      "Chart.js."
+    ],
+    "features": [
+      "Join and track progress in fitness challenges",
+      "Earn points for completed activities",
+      "Leaderboard for top participants",
+      "Personalized goals and rewardsLearning Path: State management, user interaction, and leaderboard creation.",
+      "Learning Path: State management, user interaction, and leaderboard creation."
+    ],
+    "learningPath": "",
+    "openSourceFocus": ": Encourages contributions for challenge customization, user badges, and community rewards."
+  },
+  {
+    "id": 66,
+    "difficulty": "Expert",
+    "title": "Decentralized File Storage on IPFS",
+    "description": ": A file storage platform that leverages IPFS for secure and decentralized file storage.",
+    "techStack": [
+      ": React",
+      "IPFS",
+      "MetaMask",
+      "Web3.js",
+      "Firebase for metadata storage."
+    ],
+    "features": [
+      "Upload files to IPFS with content hashing",
+      "User authentication via MetaMask",
+      "Encrypted file storage and retrieval",
+      "Activity log for file actions"
+    ],
+    "learningPath": ": IPFS, blockchain integration, and encryption.",
+    "openSourceFocus": ": Supports contributions like additional encryption layers, access controls, and enhanced metadata handling."
+  },
+  {
+    "id": 67,
+    "difficulty": "Advanced Beginner",
+    "title": "Personal Library Catalog",
+    "description": ": A personal library catalog where users can log, organize, and review books they own.",
+    "techStack": [
+      ": React",
+      "Local Storage or Firebase",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize books with custom tags",
+      "Search by title, author, or genre",
+      "Add ratings and reviews for each book",
+      "Book tracking for read/unread status"
+    ],
+    "learningPath": ": CRUD operations, data organization, and search functionality.",
+    "openSourceFocus": ": Ideal for adding advanced filters, multi-user support, or book recommendation features."
+  },
+  {
+    "id": 68,
+    "difficulty": "Intermediate",
+    "title": "Customer Relationship Management (CRM) Tool",
+    "description": ": Build a CRM tool for small businesses to manage customers, track leads, and analyze sales performance.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "Firebase for authentication."
+    ],
+    "features": [
+      "Customer and lead management with notes",
+      "Sales pipeline tracking and status updates",
+      "Analytics for sales and customer interactions",
+      "Multi-user access with role-based permissions"
+    ],
+    "learningPath": ": Data handling, CRUD, and analytics.",
+    "openSourceFocus": ": Encourages contributions for advanced analytics, email integrations, and custom reporting features."
+  },
+  {
+    "id": 69,
+    "difficulty": "Expert",
+    "title": "Stock Trading Simulator with AI Predictions",
+    "description": ": Develop a stock trading simulator with AI predictions based on market trends, allowing users to practice trading.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js",
+      "Stock Market API."
+    ],
+    "features": [
+      "Buy and sell stocks with virtual funds",
+      "AI-powered market trend predictions",
+      "Portfolio tracking with performance metrics",
+      "Leaderboard and ranking for top traders"
+    ],
+    "learningPath": ": AI for trend prediction, financial data handling, and performance analytics.",
+    "openSourceFocus": ": Ideal for adding new market indicators, more stock data sources, and trading algorithms."
+  },
+  {
+    "id": 70,
+    "difficulty": "Beginner",
+    "title": "Recipe Finder with Favorites",
+    "description": ": A simple recipe finder app where users can search for recipes and save favorites.",
+    "techStack": [
+      ": React",
+      "Spoonacular API for recipes",
+      "Local Storage."
+    ],
+    "features": [
+      "Search recipes by keyword",
+      "View detailed recipe instructions and ingredients",
+      "Save recipes to a favorites list",
+      "Simple UI for browsing and managing favorites"
+    ],
+    "learningPath": ": API handling, local storage for persistence, and component-based UI.",
+    "openSourceFocus": ": Contributors can add advanced filters, shareable recipe links, and personalized recommendations."
+  },
+  {
+    "id": 71,
+    "difficulty": "Intermediate",
+    "title": "Budget Planner with Monthly Analysis",
+    "description": ": A budgeting app that helps users track expenses and visualize monthly spending habits.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js for analytics",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Expense logging with categories",
+      "Monthly spending analysis with charts",
+      "Budget tracking and alerts for overspending",
+      "Detailed breakdowns by category"
+    ],
+    "learningPath": ": Data handling with Firebase, chart visualization, and user interactions.",
+    "openSourceFocus": ": Allows for the addition of budget templates, spending insights, and alerts for unusual spending."
+  },
+  {
+    "id": 72,
+    "difficulty": "Advanced Beginner",
+    "title": "Minimalist Habit Tracker",
+    "description": ": A simple habit tracker where users can set daily habits and track their consistency over time.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and customize daily habits",
+      "Visualize streaks and consistency",
+      "Basic analytics for habit completion",
+      "Reminders for daily check-ins"
+    ],
+    "learningPath": ": Local storage, component state management, and data visualization.",
+    "openSourceFocus": ": Great for adding progress graphs, streak tracking, and user insights."
+  },
+  {
+    "id": 73,
+    "difficulty": "Expert",
+    "title": "Real-Time Sports Scoreboard",
+    "description": ": A real-time sports scoreboard for live scores, stats, and commentary.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Socket.IO",
+      "Firebase",
+      "and Sports API."
+    ],
+    "features": [
+      "Real-time score updates and statistics",
+      "Live commentary and highlights",
+      "Notifications for key events (e.g., goals, touchdowns)",
+      "Game history and performance charts"
+    ],
+    "learningPath": ": WebSocket for real-time updates, sports API integration, and data handling.",
+    "openSourceFocus": ": Contributors can add support for different sports, advanced stats, and real-time commentary integration."
+  },
+  {
+    "id": 74,
+    "difficulty": "Intermediate",
+    "title": "Personal Finance and Investment Tracker",
+    "description": ": An app to track personal finances, investments, and stock performance in one place.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js for visualization",
+      "Stock Market API."
+    ],
+    "features": [
+      "Track expenses and investments by category",
+      "Monitor stock performance and portfolio growth",
+      "Monthly finance analysis and goals",
+      "Customizable dashboard with key metrics"
+    ],
+    "learningPath": ": Financial data handling, stock API integration, and user personalization.",
+    "openSourceFocus": ": Great for adding investment strategies, personalized recommendations, and more stock data sources."
+  },
+  {
+    "id": 75,
+    "difficulty": "Advanced Beginner",
+    "title": "Task Manager with Categories",
+    "description": ": A simple task manager where users can organize tasks by categories and priority.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and delete tasks",
+      "Organize tasks into customizable categories",
+      "Priority-based sorting and filtering",
+      "Reminders and notifications for deadlines"
+    ],
+    "learningPath": ": CRUD functionality, local storage, and category filtering.",
+    "openSourceFocus": ": Ideal for adding task color coding, category analytics, and recurring tasks."
+  },
+  {
+    "id": 76,
+    "difficulty": "Expert",
+    "title": "Blockchain-based Document Authentication System",
+    "description": ": A document authentication system on the blockchain for tamper-proof certification.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "Web3.js."
+    ],
+    "features": [
+      "Upload and verify documents with blockchain hashing",
+      "User wallet integration for signing and verification",
+      "Tamper-proof history for document validation",
+      "Detailed transaction logs for each document"
+    ],
+    "learningPath": ": Blockchain smart contracts, Web3.js, and document security.",
+    "openSourceFocus": ": Contributions can focus on UI enhancements, integrating document types, and validation analytics."
+  },
+  {
+    "id": 77,
+    "difficulty": "Advanced Beginner",
+    "title": "Mood Tracker with Weekly Insights",
+    "description": ": A mood-tracking app where users can log daily moods and receive weekly insights.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Chart.js for visualization",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Daily mood logging with icons or color-coding",
+      "Weekly and monthly mood analytics",
+      "Journal entries for mood context",
+      "Searchable history and notes"
+    ],
+    "learningPath": ": CRUD with local storage, chart integration, and mood visualization.",
+    "openSourceFocus": ": Contributors can add custom mood analytics, export functionality, or mood-based recommendations."
+  },
+  {
+    "id": 78,
+    "difficulty": "Intermediate",
+    "title": "Travel Planning and Expense Tracker",
+    "description": ": An app where users can plan trips, set budgets, and track expenses along the way.",
+    "techStack": [
+      ": Next.js",
+      "Firebase for storage",
+      "Google Maps API."
+    ],
+    "features": [
+      "Trip itinerary planning with locations",
+      "Expense tracking per trip",
+      "Map integration for route planning",
+      "Detailed travel reports with budget analysis"
+    ],
+    "learningPath": ": Maps API integration, CRUD with Firebase, and budget handling.",
+    "openSourceFocus": ": Great for community contributions like weather updates, suggested attractions, and budget-saving tips."
+  },
+  {
+    "id": 79,
+    "difficulty": "Advanced",
+    "title": "Social Media Dashboard with Analytics",
+    "description": ": A social media dashboard to analyze engagement across multiple platforms.",
+    "techStack": [
+      ": React",
+      "MongoDB",
+      "Firebase",
+      "Chart.js for data visualization",
+      "and social media APIs."
+    ],
+    "features": [
+      "Track followers, likes, and engagement rates",
+      "Comparative analysis across platforms",
+      "Weekly and monthly trend reports",
+      "Notifications for significant milestones"
+    ],
+    "learningPath": ": API integration, data analytics, and chart visualization.",
+    "openSourceFocus": ": Supports contributions for custom analytics, platform-specific insights, and engagement predictions."
+  },
+  {
+    "id": 80,
+    "difficulty": "Intermediate",
+    "title": "Voice-Activated Personal Assistant",
+    "description": ": Build a personal assistant app that can respond to voice commands and perform simple tasks.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Speech Recognition API."
+    ],
+    "features": [
+      "Recognize and execute voice commands",
+      "Perform tasks like reminders, weather, and search",
+      "Store frequently used commands",
+      "Feedback and error-handling for failed commands"
+    ],
+    "learningPath": ": Speech recognition, command handling, and Firebase.",
+    "openSourceFocus": ": Encourages contributions for advanced command features, personalized responses, and multi-language support."
+  },
+  {
+    "id": 81,
+    "difficulty": "Advanced Beginner",
+    "title": "Minimalist Budget Tracker",
+    "description": ": A minimalist budget tracker to help users manage daily expenses.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Track daily and monthly expenses",
+      "Simple category tagging for each expense",
+      "Graphical representation of spending habits",
+      "Budget notifications for overspending"
+    ],
+    "learningPath": ": Data handling, local storage, and user interface design.",
+    "openSourceFocus": ": Allows contributors to add categories, advanced analytics, and budgeting tips."
+  },
+  {
+    "id": 82,
+    "difficulty": "Expert",
+    "title": "Automated Job Application Tracker",
+    "description": ": A job application tracker that automates application submission and follows up with reminders.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Selenium for automation."
+    ],
+    "features": [
+      "Job tracking by company, position, and status",
+      "Auto-apply to job listings based on resume and criteria",
+      "Reminders for follow-up and interview preparation",
+      "Analytics for success rates and application insights"
+    ],
+    "learningPath": ": Web scraping with Selenium, job data handling, and automation.",
+    "openSourceFocus": ": Great for contributions in application scheduling, resume parsing, and analytics."
+  },
+  {
+    "id": 83,
+    "difficulty": "Intermediate",
+    "title": "Blogging Platform with Media Upload",
+    "description": ": A blogging platform where users can write, edit, and upload media (images, videos) in their posts.",
+    "techStack": [
+      ": Next.js",
+      "Firebase for media storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Article creation with rich text and media support",
+      "Commenting and liking on posts",
+      "User profiles and follower counts",
+      "Media upload and organization for articles"
+    ],
+    "learningPath": ": Media upload with Firebase, CRUD operations, and rich text editing.",
+    "openSourceFocus": ": Ideal for adding article templates, media analytics, and sharing features."
+  },
+  {
+    "id": 84,
+    "difficulty": "Advanced Beginner",
+    "title": "Goal Tracker with Progress Analytics",
+    "description": ": A goal-tracking app where users can set personal goals and track progress visually.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Chart.js for visualization",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Set, edit, and delete goals with deadlines",
+      "Visual progress tracking for each goal",
+      "Notifications for goal milestones",
+      "Goal completion analytics and insights"
+    ],
+    "learningPath": ": CRUD functionality, chart visualization, and data persistence.",
+    "openSourceFocus": ": Contributors can add goal categories, priority tags, and milestone rewards."
+  },
+  {
+    "id": 85,
+    "difficulty": "Expert",
+    "title": "NFT Marketplace with Auction Mechanism",
+    "description": ": Develop an NFT marketplace where users can list, buy, and auction NFTs.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "Web3.js."
+    ],
+    "features": [
+      "NFT minting and listing for sale",
+      "Auction system for NFT bidding",
+      "Secure wallet integration for transactions",
+      "Transaction history and NFT analytics"
+    ],
+    "learningPath": ": NFT creation, blockchain auction mechanics, and marketplace UI.",
+    "openSourceFocus": ": A perfect platform for adding auction customization, fee structures, and analytics."
+  },
+  {
+    "id": 86,
+    "difficulty": "Intermediate",
+    "title": "Study Planner with Calendar Integration",
+    "description": ": A study planner to help students organize assignments, tests, and study sessions with a calendar view.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Calendar API."
+    ],
+    "features": [
+      "Add, edit, and organize study tasks",
+      "Calendar view for assignment deadlines and tests",
+      "Progress tracking for completed tasks",
+      "Notifications and reminders for due dates"
+    ],
+    "learningPath": ": Calendar API integration, CRUD with Firebase, and progress tracking.",
+    "openSourceFocus": ": Ideal for adding study templates, peer sharing, and group study planning."
+  },
+  {
+    "id": 87,
+    "difficulty": "Advanced Beginner",
+    "title": "Simple Chat Application with Emojis",
+    "description": ": A basic chat application with emoji support and customizable themes.",
+    "techStack": [
+      ": React",
+      "Firebase for chat data",
+      "Emoji Picker."
+    ],
+    "features": [
+      "Real-time messaging and emoji support",
+      "Customizable themes and fonts",
+      "User profiles and typing indicators",
+      "Chat history with search functionality"
+    ],
+    "learningPath": ": Real-time chat with Firebase, emoji integration, and theme customization.",
+    "openSourceFocus": ": Encourages contributions for GIF support, user blocking, and additional themes."
+  },
+  {
+    "id": 88,
+    "difficulty": "Advanced",
+    "title": "AI-Powered Virtual Stylist",
+    "description": ": Build an AI-powered fashion stylist app where users can get outfit suggestions based on their wardrobe, occasion, and weather.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "TensorFlow.js for AI",
+      "Weather API."
+    ],
+    "features": [
+      "Wardrobe management and outfit catalog",
+      "AI-based outfit suggestions for occasions and weather",
+      "Personalized style recommendations",
+      "Social sharing for favorite outfits"
+    ],
+    "learningPath": ": Machine learning for recommendations, weather API integration, and user personalization.",
+    "openSourceFocus": ": Contributors can add more outfit templates, style preferences, and AI improvements."
+  },
+  {
+    "id": 89,
+    "difficulty": "Intermediate",
+    "title": "Online Whiteboard with Collaborative Drawing",
+    "description": ": A collaborative online whiteboard where users can draw, write, and brainstorm together in real-time.",
+    "techStack": [
+      ": React",
+      "Firebase for real-time data",
+      "WebSockets for collaboration."
+    ],
+    "features": [
+      "Real-time drawing and writing tools",
+      "Multiple user collaboration with chat",
+      "Save and share whiteboards",
+      "Zoom and pan functionality"
+    ],
+    "learningPath": ": Real-time data handling, WebSocket integration, and drawing tools.",
+    "openSourceFocus": ": Ideal for adding new drawing tools, canvas shapes, and collaboration features like video chat."
+  },
+  {
+    "id": 90,
+    "difficulty": "Beginner",
+    "title": "Meditation and Relaxation App",
+    "description": ": A meditation app with guided sessions, ambient sounds, and breathing exercises.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Meditation session timers",
+      "Background sounds (nature, white noise)",
+      "Breathing exercises with visual guidance",
+      "Track and save meditation sessions"
+    ],
+    "learningPath": ": Basic UI development, timer management, and user experience design.",
+    "openSourceFocus": ": Great for adding more meditation sounds, guided sessions, and progress tracking."
+  },
+  {
+    "id": 91,
+    "difficulty": "Expert",
+    "title": "Smart Home Automation Control Panel",
+    "description": ": A control panel to manage IoT-enabled smart home devices like lights, thermostat, and security cameras.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "IoT APIs",
+      "WebSockets for real-time updates."
+    ],
+    "features": [
+      "Control smart devices remotely",
+      "Real-time device status updates",
+      "Usage analytics and energy savings insights",
+      "Voice command integration"
+    ],
+    "learningPath": ": IoT integration, real-time data with WebSockets, and voice command handling.",
+    "openSourceFocus": ": Supports additional IoT device integration, personalized automation rules, and security controls."
+  },
+  {
+    "id": 92,
+    "difficulty": "Advanced Beginner",
+    "title": "Grocery List App with Categories",
+    "description": ": A grocery list app where users can create lists, categorize items, and mark items as purchased.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and organize grocery items by category",
+      "Mark items as purchased",
+      "Save multiple lists for different occasions",
+      "Dark mode for better UI experience"
+    ],
+    "learningPath": ": Data organization, local storage, and component design.",
+    "openSourceFocus": ": Allows contributors to add features like list sharing, price tracking, and store-specific lists."
+  },
+  {
+    "id": 93,
+    "difficulty": "Intermediate",
+    "title": "Audio Book Player with Chapter Highlights",
+    "description": ": An audiobook player that allows users to listen to audiobooks, bookmark chapters, and highlight sections.",
+    "techStack": [
+      ": React",
+      "Firebase for storage",
+      "HTML5 Audio API."
+    ],
+    "features": [
+      "Play, pause, and bookmark audio chapters",
+      "Highlight sections and save notes",
+      "User profiles for tracking books",
+      "Speed control and audio quality settings"
+    ],
+    "learningPath": ": Audio handling with HTML5, Firebase for bookmarks, and user customization.",
+    "openSourceFocus": ": Contributions for new playback features, audio file organization, and enhanced bookmarking."
+  },
+  {
+    "id": 94,
+    "difficulty": "Expert",
+    "title": "Decentralized Crowdfunding Platform on Blockchain",
+    "description": ": A crowdfunding platform on blockchain where users can create projects and accept cryptocurrency donations.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "Web3.js."
+    ],
+    "features": [
+      "Project creation and donation tracking",
+      "Secure wallet-based donations",
+      "Transparency with transaction logs",
+      "Project milestones with funding goals"
+    ],
+    "learningPath": ": Blockchain smart contracts, decentralized payments, and Web3.js.",
+    "openSourceFocus": ": Ideal for adding fundraising analytics, goal tracking, and project updates."
+  },
+  {
+    "id": 95,
+    "difficulty": "Beginner",
+    "title": "Daily Quotes Generator",
+    "description": ": A simple app that displays a new motivational quote every day.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Display a new daily quote",
+      "Save favorite quotes to a list",
+      "Randomize quotes for more inspiration",
+      "Simple UI with theme options"
+    ],
+    "learningPath": ": Basic data handling, local storage, and API fetching.",
+    "openSourceFocus": ": Contributors can add more quote categories, daily notifications, and design customizations."
+  },
+  {
+    "id": 96,
+    "difficulty": "Intermediate",
+    "title": "Video Streaming Platform with Chat",
+    "description": ": Build a video streaming platform with real-time chat for live events or shows.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "Firebase for storage",
+      "WebRTC for streaming."
+    ],
+    "features": [
+      "Live video streaming with WebRTC",
+      "Real-time chat alongside the video",
+      "User profiles with streaming history",
+      "Notifications for upcoming events"
+    ],
+    "learningPath": ": Video streaming with WebRTC, real-time data with Firebase, and chat integration.",
+    "openSourceFocus": ": Great for adding features like screen sharing, user reactions, and improved chat functionalities."
+  },
+  {
+    "id": 97,
+    "difficulty": "Advanced Beginner",
+    "title": "Simple Recipe Book",
+    "description": ": A recipe book app where users can save and categorize their favorite recipes.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and categorize recipes",
+      "Search recipes by ingredients or title",
+      "Bookmark favorite recipes",
+      "Dark mode for readability"
+    ],
+    "learningPath": ": Data organization, local storage, and simple UI design.",
+    "openSourceFocus": ": Allows contributors to add recipe sharing, custom tags, and advanced search filters."
+  },
+  {
+    "id": 98,
+    "difficulty": "Expert",
+    "title": "Decentralized Identity Verification System",
+    "description": ": Build a decentralized identity verification system to provide secure digital identities on blockchain.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "IPFS for storage."
+    ],
+    "features": [
+      "Verify identity with smart contracts",
+      "Secure storage on IPFS",
+      "User profile with verification history",
+      "Cross-platform identity integration"
+    ],
+    "learningPath": ": Blockchain for identity verification, IPFS for secure storage, and Web3 integration.",
+    "openSourceFocus": ": Ideal for adding multi-factor authentication, biometric verification, and enhanced security protocols."
+  },
+  {
+    "id": 99,
+    "difficulty": "Intermediate",
+    "title": "Music Playlist Curator with API Integration",
+    "description": ": An app where users can curate playlists and fetch recommendations from a music API.",
+    "techStack": [
+      ": React",
+      "Spotify API",
+      "Firebase."
+    ],
+    "features": [
+      "Playlist creation and customization",
+      "Fetch song recommendations from Spotify",
+      "Favorite and share playlists",
+      "Filter songs by genre and mood"
+    ],
+    "learningPath": ": API integration, data management, and playlist customization.",
+    "openSourceFocus": ": Contributors can add new music sources, playlist themes, and personalized recommendations."
+  },
+  {
+    "id": 100,
+    "difficulty": "Advanced Beginner",
+    "title": "Workout Logger with Timer",
+    "description": ": A simple workout logger where users can record exercises and track workout time.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Log exercises with reps and sets",
+      "Timer for tracking workout duration",
+      "Save workout sessions for progress tracking",
+      "Categorize exercises by type"
+    ],
+    "learningPath": ": Data persistence, time tracking, and user interaction.",
+    "openSourceFocus": ": Encourages additions like workout recommendations, calorie tracking, and custom exercise categories."
+  },
+  {
+    "id": 101,
+    "difficulty": "Advanced",
+    "title": "AI-Powered Resume Scanner and Job Matcher",
+    "description": ": An AI-powered tool that scans resumes and matches them to job listings based on keywords and skills.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "Upload and scan resumes",
+      "AI-powered keyword extraction for skills",
+      "Job matching based on resume content",
+      "Feedback and suggestions for resume improvement"
+    ],
+    "learningPath": ": NLP for keyword extraction, AI model training, and resume parsing.",
+    "openSourceFocus": ": Ideal for adding industry-specific keywords, job recommendations, and resume analytics."
+  },
+  {
+    "id": 102,
+    "difficulty": "Intermediate",
+    "title": "Personal Recipe Generator",
+    "description": ": A recipe generator that suggests recipes based on ingredients the user has on hand.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Spoonacular API for recipes."
+    ],
+    "features": [
+      "Search recipes by available ingredients",
+      "Save and favorite generated recipes",
+      "User profile with dietary preferences",
+      "Share recipes with friends"
+    ],
+    "learningPath": ": API handling, Firebase for data storage, and user customization.",
+    "openSourceFocus": ""
+  },
+  {
+    "id": 103,
+    "difficulty": "Advanced Beginner",
+    "title": "Daily Journal with Sentiment Analysis",
+    "description": ": A journal app with a sentiment analysis tool to track emotional trends.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "TensorFlow.js for sentiment analysis."
+    ],
+    "features": [
+      "Write and save daily journal entries",
+      "Sentiment analysis for each entry",
+      "View emotional trends over time",
+      "Private storage and secure login"
+    ],
+    "learningPath": ": Sentiment analysis with TensorFlow.js, data visualization, and private storage.",
+    "openSourceFocus": ": Allows for the addition of detailed emotion categorization, sentiment export, and more analysis tools."
+  },
+  {
+    "id": 104,
+    "difficulty": "Expert",
+    "title": "Real-Time Stock Market Trading Simulator",
+    "description": ": A simulator for real-time stock trading with virtual funds and leaderboards.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Stock Market API",
+      "WebSockets."
+    ],
+    "features": [
+      "Real-time stock price updates",
+      "Buy and sell stocks with virtual currency",
+      "Portfolio tracking with performance charts",
+      "Leaderboards and achievement badges"
+    ],
+    "learningPath": ": Real-time data handling, trading logic, and financial analytics.",
+    "openSourceFocus": ": Perfect for adding investment strategies, new market data sources, and trading bots."
+  },
+  {
+    "id": 105,
+    "difficulty": "Intermediate",
+    "title": "Customizable Goal Setting App",
+    "description": ": A goal-setting app where users can set, track, and share their personal goals.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Tailwind CSS",
+      "Chart.js for tracking."
+    ],
+    "features": [
+      "Set and customize personal goals",
+      "Track progress with visual charts",
+      "Reminders for goal check-ins",
+      "Share goals with friends for accountability"
+    ],
+    "learningPath": ": CRUD with Firebase, chart integration, and goal tracking.",
+    "openSourceFocus": ": Contributors can add group goals, motivational rewards, and advanced goal types."
+  },
+  {
+    "id": 106,
+    "difficulty": "Beginner",
+    "title": "Daily Planner with Calendar View",
+    "description": ": A daily planner that allows users to schedule tasks, view upcoming events, and set reminders.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and delete tasks",
+      "Calendar view for daily, weekly, and monthly plans",
+      "Reminders for tasks and events",
+      "Color-coded categories for tasks"
+    ],
+    "learningPath": ": Local storage, calendar UI, and reminder notifications.",
+    "openSourceFocus": ": Contributors can add recurring tasks, theme customization, and more notification options."
+  },
+  {
+    "id": 107,
+    "difficulty": "Intermediate",
+    "title": "Quiz Platform with Leaderboards",
+    "description": ": A quiz platform where users can create quizzes, play, and compete on leaderboards.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create and take quizzes in different categories",
+      "Timed questions and instant feedback",
+      "Track scores and earn achievements",
+      "Leaderboards for high scores"
+    ],
+    "learningPath": ": Data handling with Firebase, real-time leaderboards, and user interactions.",
+    "openSourceFocus": ": Great for adding more quiz categories, time-based challenges, and personalized quiz recommendations."
+  },
+  {
+    "id": 108,
+    "difficulty": "Advanced",
+    "title": "Cryptocurrency Price Tracker with Alerts",
+    "description": ": A cryptocurrency tracker that monitors real-time prices, and notifies users of price changes.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "WebSocket",
+      "CoinGecko API",
+      "MongoDB."
+    ],
+    "features": [
+      "Real-time cryptocurrency price updates",
+      "Customizable alerts for price changes",
+      "Historical data and price trends",
+      "Portfolio tracker for selected cryptocurrencies"
+    ],
+    "learningPath": ": WebSocket for real-time data, financial data handling, and alert notifications.",
+    "openSourceFocus": ": Contributors can add more analysis tools, price prediction, and support for additional cryptocurrencies."
+  },
+  {
+    "id": 109,
+    "difficulty": "Advanced Beginner",
+    "title": "Simple Timer and Stopwatch",
+    "description": ": A simple timer and stopwatch app for productivity tracking.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Set timers for specific tasks",
+      "Start, pause, and reset functionality",
+      "Lap and split-time tracking",
+      "Dark mode for night usage"
+    ],
+    "learningPath": ": Timer logic, local storage, and component state management.",
+    "openSourceFocus": ": Great for adding custom themes, sound alerts, and lap history."
+  },
+  {
+    "id": 110,
+    "difficulty": "Expert",
+    "title": "AI-Powered Grammar Checker",
+    "description": ": An AI-powered grammar checker that provides suggestions for text improvements.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "Real-time grammar and spelling suggestions",
+      "Alternative phrasing and synonym suggestions",
+      "Error explanations and improvements",
+      "Text history and version control"
+    ],
+    "learningPath": ": NLP with TensorFlow.js, language processing, and text analysis.",
+    "openSourceFocus": ": Ideal for adding more languages, writing styles, and contextual recommendations."
+  },
+  {
+    "id": 111,
+    "difficulty": "Intermediate",
+    "title": "Recipe Sharing Platform with Ratings",
+    "description": ": A recipe-sharing platform where users can upload, rate, and save favorite recipes.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Spoonacular API for recipes."
+    ],
+    "features": [
+      "Search and filter recipes by ingredients and cuisine",
+      "Rate and review recipes",
+      "Save and organize favorite recipes",
+      "Explore trending and popular recipes"
+    ],
+    "learningPath": ": API integration, data filtering, and rating systems.",
+    "openSourceFocus": ": Great for adding dietary preferences, custom recipe categories, and sharing features."
+  },
+  {
+    "id": 112,
+    "difficulty": "Advanced Beginner",
+    "title": "Weather App with Geolocation",
+    "description": ": A weather app that detects the user’s location and provides real-time weather data.",
+    "techStack": [
+      ": React",
+      "OpenWeatherMap API",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Detect location and fetch weather data",
+      "7-day weather forecast and temperature trends",
+      "Dark mode for night viewing",
+      "Save favorite locations for quick access"
+    ],
+    "learningPath": ": API integration, geolocation, and data visualization.",
+    "openSourceFocus": ": Contributors can add weather alerts, location-based widgets, and enhanced UI features."
+  },
+  {
+    "id": 113,
+    "difficulty": "Advanced",
+    "title": "Real Estate Marketplace with Map Integration",
+    "description": ": A real estate marketplace where users can browse and list properties with an interactive map.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Google Maps API."
+    ],
+    "features": [
+      "List and view properties by location",
+      "Search by price range, bedrooms, and other filters",
+      "Interactive map view with property pins",
+      "Save properties and set alerts for new listings"
+    ],
+    "learningPath": ": Maps integration, CRUD operations, and filtering.",
+    "openSourceFocus": ": Ideal for adding more filtering options, advanced map features, and pricing analytics."
+  },
+  {
+    "id": 114,
+    "difficulty": "Expert",
+    "title": "Blockchain-Based Document Notarization Platform",
+    "description": ": A document notarization platform on the blockchain for secure and tamper-proof records.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "IPFS for document storage."
+    ],
+    "features": [
+      "Document upload and blockchain hashing",
+      "Notarization history and verification",
+      "IPFS for decentralized storage",
+      "User wallet integration for secure access"
+    ],
+    "learningPath": ": Blockchain notarization, decentralized storage, and document security.",
+    "openSourceFocus": ": Contributors can add multi-user notarization, document categorization, and audit logs."
+  },
+  {
+    "id": 115,
+    "difficulty": "Beginner",
+    "title": "Expense Tracker with Simple Analytics",
+    "description": ": An expense tracker app where users can log expenses and view monthly summaries.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Log and categorize daily expenses",
+      "Monthly expense summary and charts",
+      "Set budgets and track overspending",
+      "Export expenses to CSV"
+    ],
+    "learningPath": ": Local storage for data, CRUD operations, and chart integration.",
+    "openSourceFocus": ": Allows contributors to add analytics, custom categories, and more export formats."
+  },
+  {
+    "id": 116,
+    "difficulty": "Advanced Beginner",
+    "title": "Vocabulary Builder with Flashcards",
+    "description": ": A vocabulary builder app that uses flashcards and spaced repetition for learning new words.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create, edit, and organize flashcards by category",
+      "Spaced repetition learning technique",
+      "Track progress and mastery levels",
+      "Notifications for daily review reminders"
+    ],
+    "learningPath": ": Data storage, spaced repetition, and flashcard UI.",
+    "openSourceFocus": ": Contributors can add language-specific word packs, tracking analytics, and progress charts."
+  },
+  {
+    "id": 117,
+    "difficulty": "Expert",
+    "title": "Decentralized Social Media Platform",
+    "description": ": A decentralized social media platform where users can post, like, and comment, with data stored on the blockchain.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "IPFS for storage",
+      "Web3.js",
+      "MetaMask for authentication."
+    ],
+    "features": [
+      "Create posts and interact with other users",
+      "Decentralized storage for user data on IPFS",
+      "Likes and comments with transparent logs",
+      "Profile management with blockchain-based ID"
+    ],
+    "learningPath": ": Blockchain and IPFS, Web3.js for decentralized interactions, and authentication.",
+    "openSourceFocus": ": Enables contributions like content moderation, customizable feeds, and privacy options."
+  },
+  {
+    "id": 118,
+    "difficulty": "Intermediate",
+    "title": "Collaborative Task Management Tool",
+    "description": ": A task management tool with real-time collaboration, ideal for teams and projects.",
+    "techStack": [
+      ": React",
+      "Firebase for real-time data",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Assign tasks to team members",
+      "Real-time collaboration with updates",
+      "Task statuses and priority levels",
+      "Team chat for discussions"
+    ],
+    "learningPath": ": Real-time data handling, task management, and team collaboration.",
+    "openSourceFocus": ": Contributors can add calendar integration, task dependencies, and user analytics."
+  },
+  {
+    "id": 119,
+    "difficulty": "Advanced Beginner",
+    "title": "Habit Streak Tracker",
+    "description": ": A habit tracking app that motivates users by visualizing streaks and consistency.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Track habits daily with streak visuals",
+      "Set reminders and notifications for habits",
+      "Weekly and monthly habit analytics",
+      "Customizable colors and themes"
+    ],
+    "learningPath": ": Local storage for data, notification API, and habit analytics.",
+    "openSourceFocus": ": Allows for advanced streak tracking, social sharing, and user milestones."
+  },
+  {
+    "id": 120,
+    "difficulty": "Expert",
+    "title": "AI-Based Health Analysis Dashboard",
+    "description": ": A health dashboard that provides insights into health data collected from wearable devices, powered by AI.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "TensorFlow.js",
+      "IoT device integration."
+    ],
+    "features": [
+      "Real-time health data sync from devices",
+      "AI analysis for health trend insights",
+      "Weekly and monthly health reports",
+      "Health alerts and goal setting"
+    ],
+    "learningPath": ": IoT integration, AI data analysis, and health data visualization.",
+    "openSourceFocus": ": Supports contributions for device compatibility, advanced health analytics, and health goal tracking."
+  },
+  {
+    "id": 121,
+    "difficulty": "Intermediate",
+    "title": "Real-Time Chat Support Widget",
+    "description": ": A live chat widget for websites, enabling real-time customer support.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase for chat data",
+      "WebSocket for real-time messaging."
+    ],
+    "features": [
+      "Real-time chat support with typing indicators",
+      "Support ticket creation and management",
+      "Canned responses for quick replies",
+      "Analytics for support performance"
+    ],
+    "learningPath": ": Real-time communication, ticket management, and customer interaction analytics.",
+    "openSourceFocus": ": Great for adding integrations like chatbot support, analytics, and customer feedback."
+  },
+  {
+    "id": 122,
+    "difficulty": "Beginner",
+    "title": "Workout Routine Planner",
+    "description": ": A workout planner where users can create and save exercise routines.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize exercises into routines",
+      "Set goals and track progress",
+      "Log completed workouts",
+      "Timer for workout sets"
+    ],
+    "learningPath": ": Data organization, routine creation, and local storage for persistence.",
+    "openSourceFocus": ": Allows contributors to add exercise libraries, community routines, and advanced tracking analytics."
+  },
+  {
+    "id": 123,
+    "difficulty": "Expert",
+    "title": "Peer-to-Peer Cryptocurrency Exchange",
+    "description": ": A decentralized cryptocurrency exchange for peer-to-peer trading with smart contracts.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "MetaMask",
+      "Web3.js."
+    ],
+    "features": [
+      "Direct peer-to-peer crypto trading",
+      "Wallet integration with MetaMask",
+      "Transaction history and order book",
+      "Real-time pricing and trading analytics"
+    ],
+    "learningPath": ": Smart contract trading, Web3 integration, and financial data handling.",
+    "openSourceFocus": ": Contributors can add trading bots, multi-token support, and secure escrow mechanisms."
+  },
+  {
+    "id": 124,
+    "difficulty": "Intermediate",
+    "title": "Event Management and Ticketing System",
+    "description": ": An event management platform with ticketing and registration features.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Stripe for payments."
+    ],
+    "features": [
+      "Event creation and ticketing",
+      "User registration and RSVP tracking",
+      "QR code generation for tickets",
+      "Payments via Stripe integration"
+    ],
+    "learningPath": ": Payment processing, user registration, and event management.",
+    "openSourceFocus": ": Allows for multi-event management, guest lists, and ticket transfer options."
+  },
+  {
+    "id": 125,
+    "difficulty": "Advanced",
+    "title": "AI-Driven Sales Forecasting Platform",
+    "description": ": A sales forecasting app powered by AI to predict revenue and inventory needs.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for AI."
+    ],
+    "features": [
+      "Sales data analysis and forecasting",
+      "Visual sales trends and seasonal adjustments",
+      "Inventory planning based on forecasts",
+      "Customizable forecast intervals"
+    ],
+    "learningPath": ": AI for data forecasting, financial analysis, and sales data handling.",
+    "openSourceFocus": ": Great for contributors interested in enhancing predictive algorithms, visualization options, and analytics dashboards."
+  },
+  {
+    "id": 126,
+    "difficulty": "Beginner",
+    "title": "Countdown Timer App",
+    "description": ": A countdown timer where users can set a timer for specific events or tasks.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Set, pause, and reset countdowns",
+      "Save frequently used timers",
+      "Notifications when timer ends",
+      "Option for background themes"
+    ],
+    "learningPath": ": Timer handling, local storage, and user interaction.",
+    "openSourceFocus": ": Contributors can add timer presets, sound alerts, and widget modes."
+  },
+  {
+    "id": 127,
+    "difficulty": "Intermediate",
+    "title": "Personal Budgeting Tool with Multi-Currency Support",
+    "description": ": A budgeting app where users can set financial goals and track expenses in multiple currencies.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Exchange Rate API",
+      "Chart.js."
+    ],
+    "features": [
+      "Add expenses and categorize them",
+      "Set budgets with multi-currency support",
+      "Visual analytics for spending",
+      "Currency conversion based on current rates"
+    ],
+    "learningPath": ": Currency conversion, budget tracking, and Firebase.",
+    "openSourceFocus": ": Contributors can add advanced analytics, reminders for budget limits, and personal finance tips."
+  },
+  {
+    "id": 128,
+    "difficulty": "Expert",
+    "title": "AI-Powered Language Translator",
+    "description": ": A translation app with speech-to-text and text-to-speech support powered by AI.",
+    "techStack": [
+      ": React",
+      "TensorFlow.js for NLP",
+      "Firebase",
+      "Google Translate API."
+    ],
+    "features": [
+      "Text and speech translation",
+      "Language detection and auto-translation",
+      "Text-to-speech for spoken output",
+      "Phrasebook for saved translations"
+    ],
+    "learningPath": ": NLP, text and speech processing, and Firebase for persistence.",
+    "openSourceFocus": ": Allows contributions like regional dialect support, translation accuracy improvements, and language expansion."
+  },
+  {
+    "id": 129,
+    "difficulty": "Advanced Beginner",
+    "title": "Habit Calendar",
+    "description": ": A calendar app to track daily habits and visualize consistency.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Daily check-in for each habit",
+      "Visual calendar with completion streaks",
+      "Monthly habit tracking and reports",
+      "Customizable habit categories and icons"
+    ],
+    "learningPath": ": Calendar view, local storage for persistence, and habit analytics.",
+    "openSourceFocus": ": Contributors can add reminders, habit-sharing features, and streak challenges."
+  },
+  {
+    "id": 130,
+    "difficulty": "Intermediate",
+    "title": "Collaborative Notes with Markdown Support",
+    "description": ": A note-taking app for collaborative markdown editing.",
+    "techStack": [
+      ": React",
+      "Firebase for real-time data",
+      "Markdown editor."
+    ],
+    "features": [
+      "Real-time collaborative editing",
+      "Markdown support for rich formatting",
+      "Save and organize notes by category",
+      "Sharing and commenting options"
+    ],
+    "learningPath": ": Real-time collaboration, markdown handling, and Firebase data storage.",
+    "openSourceFocus": ": Great for adding templates, export options, and integrations like Google Drive."
+  },
+  {
+    "id": 131,
+    "difficulty": "Expert",
+    "title": "Decentralized Voting App with Privacy Protocols",
+    "description": ": A decentralized voting platform that ensures privacy and transparency.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "MetaMask",
+      "Ethereum",
+      "zk-SNARKs for privacy."
+    ],
+    "features": [
+      "Secure vote casting and tallying",
+      "Privacy protection with zero-knowledge proofs",
+      "Transparent, tamper-proof audit trails",
+      "Voter registration and verification"
+    ],
+    "learningPath": ": Blockchain for voting, zk-SNARKs, and decentralized protocols.",
+    "openSourceFocus": ": Ideal for contributors to expand privacy protocols, improve scalability, and add more election features."
+  },
+  {
+    "id": 132,
+    "difficulty": "Beginner",
+    "title": "Digital Flashcards with Spaced Repetition",
+    "description": ": An app for creating digital flashcards and learning using spaced repetition.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create and organize flashcards",
+      "Spaced repetition algorithm for improved learning",
+      "Progress tracking with mastery levels",
+      "Notifications for review reminders"
+    ],
+    "learningPath": ": Data storage, spaced repetition, and review scheduling.",
+    "openSourceFocus": ": Contributions can add custom study modes, themed flashcards, and new languages."
+  },
+  {
+    "id": 133,
+    "difficulty": "Intermediate",
+    "title": "Customizable CRM for Small Businesses",
+    "description": ": A customer relationship management app tailored for small businesses.",
+    "techStack": [
+      ": Next.js",
+      "Firebase for storage",
+      "Stripe for subscription."
+    ],
+    "features": [
+      "Customer profile management",
+      "Sales tracking and analytics",
+      "Email automation for follow-ups",
+      "Tiered pricing with Stripe subscription"
+    ],
+    "learningPath": ": CRUD operations, Firebase for data storage, and payment integration.",
+    "openSourceFocus": ": Contributors can add CRM analytics, pipeline stages, and integrations with email platforms."
+  },
+  {
+    "id": 134,
+    "difficulty": "Expert",
+    "title": "Automated Email Marketing Platform with Analytics",
+    "description": ": An email marketing platform with automation workflows and analytics for campaign optimization.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "SendGrid API for email",
+      "Firebase."
+    ],
+    "features": [
+      "Email templates and customization",
+      "Automation workflows for campaigns",
+      "Detailed analytics for open rates and clicks",
+      "Customer segmentation for targeted campaigns"
+    ],
+    "learningPath": ": Email automation, user analytics, and campaign management.",
+    "openSourceFocus": ": Enables contributions for more email templates, A/B testing features, and customer analytics."
+  },
+  {
+    "id": 135,
+    "difficulty": "Advanced Beginner",
+    "title": "Pomodoro Timer with Task Integration",
+    "description": ": A Pomodoro timer integrated with task management for productivity tracking.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Task organization with Pomodoro timers",
+      "Timers for focused work and break intervals",
+      "Track completed tasks and time spent",
+      "Simple, minimalist UI with themes"
+    ],
+    "learningPath": ": Timer logic, local storage, and task organization.",
+    "openSourceFocus": ": Great for adding advanced analytics, recurring task management, and reminders."
+  },
+  {
+    "id": 136,
+    "difficulty": "Intermediate",
+    "title": "Personal Investment Dashboard with Market Insights",
+    "description": ": A dashboard for tracking personal investments with market insights and news.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "Stock Market API."
+    ],
+    "features": [
+      "Track stocks, crypto, and mutual funds",
+      "Portfolio performance tracking",
+      "Market news and trend analysis",
+      "Watchlist with price alerts"
+    ],
+    "learningPath": ": API integration, financial data handling, and portfolio analytics.",
+    "openSourceFocus": ": Contributors can add market analytics, prediction tools, and more investment types."
+  },
+  {
+    "id": 137,
+    "difficulty": "Advanced",
+    "title": "AI-Driven Content Creation Platform",
+    "description": ": A content creation platform that generates blog ideas, outlines, and assists with SEO optimization.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "OpenAI API."
+    ],
+    "features": [
+      "AI-powered blog title and outline suggestions",
+      "SEO recommendations for improved visibility",
+      "Content analysis and readability scoring",
+      "Save and edit content drafts"
+    ],
+    "learningPath": ": AI-driven content generation, SEO analysis, and data handling.",
+    "openSourceFocus": ": Enables contributions for AI models, SEO enhancements, and integrations with CMS platforms."
+  },
+  {
+    "id": 138,
+    "difficulty": "Beginner",
+    "title": "Personal Book Library",
+    "description": ": A virtual library where users can organize, categorize, and review their book collection.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize books by genre and status",
+      "Rate and review books",
+      "Track reading history and completion status",
+      "Simple UI with search and filter options"
+    ],
+    "learningPath": ": Data organization, local storage, and book management.",
+    "openSourceFocus": ": Ideal for adding advanced filters, reading goals, and book recommendations."
+  },
+  {
+    "id": 139,
+    "difficulty": "Intermediate",
+    "title": "Real-Time Collaboration Platform for Teams",
+    "description": ": A platform that facilitates real-time collaboration on projects with chat, file sharing, and task tracking.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "WebSocket for real-time updates."
+    ],
+    "features": [
+      "Task assignment and progress tracking",
+      "Real-time chat and file sharing",
+      "Kanban board for project management",
+      "Team notifications and alerts"
+    ],
+    "learningPath": ": WebSocket for real-time updates, project management, and team communication.",
+    "openSourceFocus": ": Contributors can add Gantt charts, advanced permissions, and integration with external tools like Google Drive."
+  },
+  {
+    "id": 140,
+    "difficulty": "Expert",
+    "title": "NFT-Based Art Gallery Platform",
+    "description": ": A platform for showcasing digital art as NFTs, allowing artists to upload, mint, and sell their art.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "IPFS for storage."
+    ],
+    "features": [
+      "NFT minting and listing for sale",
+      "Artist and buyer profiles with portfolios",
+      "Secure transactions and wallet integration",
+      "Favorites and wishlist for buyers"
+    ],
+    "learningPath": ": NFT creation, IPFS storage, and blockchain-based transactions.",
+    "openSourceFocus": ": Great for adding artist support, more payment options, and enhanced gallery features."
+  },
+  {
+    "id": 141,
+    "difficulty": "Intermediate",
+    "title": "AI Personal Finance Assistant",
+    "description": ": A simple, minimalist to-do list app for daily task management.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add, edit, and delete tasks",
+      "Organize tasks by categories",
+      "Mark tasks as completed",
+      "Dark and light themes"
+    ],
+    "learningPath": ": Basic CRUD operations, local storage, and UI design.",
+    "openSourceFocus": ": Ideal for adding priority tags, recurring tasks, and notifications."
+  },
+  {
+    "id": 142,
+    "difficulty": "Expert",
+    "title": "IoT Smart Garden Management System",
+    "description": ": A personal finance assistant that provides budget recommendations, monitors spending, and gives insights based on financial habits.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "TensorFlow.js for AI."
+    ],
+    "features": [
+      "Budget tracking and expense categorization",
+      "AI-driven insights for spending patterns",
+      "Monthly financial summaries and forecasts",
+      "Notifications for budget limits and savings tips"
+    ],
+    "learningPath": ": AI for financial insights, data management, and spending analytics.",
+    "openSourceFocus": ": Contributors can add new insights, custom financial goals, and support for multiple currencies."
+  },
+  {
+    "id": 143,
+    "difficulty": "Beginner",
+    "title": "Personal Diary with Mood Tracker",
+    "description": ": A smart garden system that monitors soil moisture, temperature, and automatically waters plants.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "IoT devices",
+      "MQTT for real-time data."
+    ],
+    "features": [
+      "Real-time monitoring of soil and environmental data",
+      "Automated watering and alert system",
+      "Data history and growth analytics",
+      "Remote access to control settings"
+    ],
+    "learningPath": ": IoT integration, MQTT protocol, and environmental analytics.",
+    "openSourceFocus": ": Ideal for adding new sensors, plant recommendations, and garden layout customization."
+  },
+  {
+    "id": 144,
+    "difficulty": "Intermediate",
+    "title": "Real-Time Job Board with Notifications",
+    "description": ": A diary app where users can log daily entries and track their mood over time.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Daily entry logging with mood tracking",
+      "Mood calendar for visual trends",
+      "Search entries by date or keywords",
+      "Dark mode and custom themes"
+    ],
+    "learningPath": ": Data storage, mood tracking, and diary entry management.",
+    "openSourceFocus": ": Contributors can add mood analytics, tags, and export options."
+  },
+  {
+    "id": 145,
+    "difficulty": "Intermediate",
+    "title": "Real-Time Job Board with Notifications",
+    "description": ": A job board where users can post and search for job listings with real-time updates.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "WebSocket for real-time data."
+    ],
+    "features": [
+      "Real-time job posting and searching",
+      "Notifications for new job alerts",
+      "Filter jobs by role, location, and experience",
+      "Save jobs for later review"
+    ],
+    "learningPath": ": WebSocket for updates, filtering, and notification handling.",
+    "openSourceFocus": ": Great for adding advanced filters, salary insights, and application tracking."
+  },
+  {
+    "id": 146,
+    "difficulty": "Advanced Beginner",
+    "title": "Personal Nutrition Tracker",
+    "description": ": A nutrition tracker that helps users log meals and track nutrient intake.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Nutritionix API."
+    ],
+    "features": [
+      "Add meals and view nutritional data",
+      "Track daily intake for calories, protein, etc.",
+      "Set dietary goals and track progress",
+      "Personalized suggestions based on dietary preferences"
+    ],
+    "learningPath": ": API integration, user data handling, and dietary tracking.",
+    "openSourceFocus": ": Contributors can add meal suggestions, export options, and more detailed nutrient tracking."
+  },
+  {
+    "id": 147,
+    "difficulty": "Intermediate",
+    "title": "Social Media Content Scheduler",
+    "description": ": A content scheduling tool for social media, allowing users to plan posts in advance.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Social Media APIs."
+    ],
+    "features": [
+      "Schedule posts across multiple platforms",
+      "Calendar view of upcoming posts",
+      "Analytics for engagement tracking",
+      "Automated posting based on set times"
+    ],
+    "learningPath": ": API integration, data scheduling, and analytics.",
+    "openSourceFocus": ": Allows contributors to add support for additional platforms, scheduling templates, and content recommendations."
+  },
+  {
+    "id": 148,
+    "difficulty": "Expert",
+    "title": "Decentralized Marketplace for Digital Goods",
+    "description": ": A blockchain-based marketplace where users can buy and sell digital assets (e.g., software, art).",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "IPFS for storage",
+      "MetaMask",
+      "Web3.js."
+    ],
+    "features": [
+      "Mint and list digital assets as NFTs",
+      "Decentralized wallet-based transactions",
+      "Secure transaction history",
+      "User ratings and asset analytics"
+    ],
+    "learningPath": ": Blockchain smart contracts, decentralized storage, and digital marketplace management.",
+    "openSourceFocus": ": Enables contributions in asset search optimization, rating algorithms, and payment flexibility."
+  },
+  {
+    "id": 149,
+    "difficulty": "Beginner",
+    "title": "Shopping List with Categorized Items",
+    "description": ": A shopping list app where users can categorize items and manage lists.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and categorize items (e.g., groceries, electronics)",
+      "Sort and prioritize items by category",
+      "Mark items as purchased",
+      "Save frequently used lists for quick access"
+    ],
+    "learningPath": ": Basic CRUD operations, data persistence, and list management.",
+    "openSourceFocus": ": Contributors can add price tracking, store-based lists, and list sharing."
+  },
+  {
+    "id": 150,
+    "difficulty": "Intermediate",
+    "title": "Inventory Management System for Small Businesses",
+    "description": ": An inventory management tool designed for small businesses to track stock and manage products.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize products with details",
+      "Real-time inventory updates",
+      "Sales tracking and low-stock alerts",
+      "Reports for inventory valuation"
+    ],
+    "learningPath": ": Data handling, inventory analytics, and Firebase storage.",
+    "openSourceFocus": ": Enables contributions like multi-location tracking, barcode scanning, and export features."
+  },
+  {
+    "id": 151,
+    "difficulty": "Expert",
+    "title": "AI-Powered Recruitment Platform",
+    "description": ": A recruitment platform that matches candidates to jobs based on skills and past experience.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for AI."
+    ],
+    "features": [
+      "AI-powered job matching based on resume analysis",
+      "Candidate tracking and interview scheduling",
+      "Notifications for new job matches",
+      "Company profiles and analytics"
+    ],
+    "learningPath": ": AI for matching, resume parsing, and recruitment analytics.",
+    "openSourceFocus": ": Allows contributors to add advanced candidate search, scheduling integrations, and resume improvements."
+  },
+  {
+    "id": 152,
+    "difficulty": "Beginner",
+    "title": "Virtual Mood Journal with Daily Prompts",
+    "description": ": A mood journal that provides daily prompts for users to reflect on their day.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Daily mood logging and reflection",
+      "Customizable prompts for journaling",
+      "Search and filter past entries",
+      "Data visualization of mood trends"
+    ],
+    "learningPath": ": CRUD functionality, mood tracking, and data visualization.",
+    "openSourceFocus": ": Contributors can add prompt libraries, sentiment analysis, and export options."
+  },
+  {
+    "id": 153,
+    "difficulty": "Intermediate",
+    "title": "Event Ticketing System with QR Code Verification",
+    "description": ": A ticketing system for events with QR code generation and scanning.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "QR Code API."
+    ],
+    "features": [
+      "Event creation and ticket sales",
+      "QR code generation for tickets",
+      "Scanning for check-in verification",
+      "Event attendance tracking and reporting"
+    ],
+    "learningPath": ": QR code handling, data management, and event tracking.",
+    "openSourceFocus": ": Great for adding guest lists, ticket sharing, and multi-event management."
+  },
+  {
+    "id": 154,
+    "difficulty": "Advanced",
+    "title": "AI-Driven Social Media Sentiment Analysis",
+    "description": ": An analysis tool that tracks and visualizes the sentiment of social media posts.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "Real-time sentiment analysis on social media posts",
+      "Data visualization for sentiment trends",
+      "Topic analysis to determine popular subjects",
+      "Notifications for trending topics"
+    ],
+    "learningPath": ": NLP for sentiment analysis, real-time data handling, and social media analytics.",
+    "openSourceFocus": ": Ideal for adding sentiment history, topic tracking, and cross-platform data aggregation."
+  },
+  {
+    "id": 155,
+    "difficulty": "Beginner",
+    "title": "Minimalist Habit Tracker with Streaks",
+    "description": ": A simple habit-tracking app that motivates users by tracking habit streaks.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Track daily habits with streak visuals",
+      "Set goals and milestones",
+      "Visualize streaks and completion stats",
+      "Notification reminders for consistency"
+    ],
+    "learningPath": ": Local storage, habit visualization, and streak tracking.",
+    "openSourceFocus": ": Contributors can add advanced analytics, social sharing, and group habits."
+  },
+  {
+    "id": 156,
+    "difficulty": "Intermediate",
+    "title": "Collaborative Shopping List for Families",
+    "description": ": A shared shopping list where family members can add, edit, and view items in real time.",
+    "techStack": [
+      ": React",
+      "Firebase for real-time updates",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Real-time list sharing with updates",
+      "Categories for different types of items",
+      "Notifications for item changes",
+      "Ability to mark items as bought"
+    ],
+    "learningPath": ": Real-time collaboration, data handling, and shared storage.",
+    "openSourceFocus": ": Ideal for adding multi-list functionality, family chat integration, and price tracking."
+  },
+  {
+    "id": 157,
+    "difficulty": "Expert",
+    "title": "Real-Time Cryptocurrency Portfolio with AI Predictions",
+    "description": ": A cryptocurrency portfolio with real-time price updates and AI-driven predictions.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "CoinGecko API",
+      "TensorFlow.js."
+    ],
+    "features": [
+      "Track portfolio with real-time prices",
+      "AI-based predictions for market trends",
+      "Historical data and trend analysis",
+      "Notifications for significant market changes"
+    ],
+    "learningPath": ": AI-based prediction models, financial data analytics, and real-time updates.",
+    "openSourceFocus": ": Great for adding personalized alerts, AI enhancements, and multi-portfolio tracking."
+  },
+  {
+    "id": 158,
+    "difficulty": "Beginner",
+    "title": "Personal Recipe Manager",
+    "description": ": A recipe management app where users can save, categorize, and share recipes.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Save recipes with ingredients and instructions",
+      "Categorize recipes by cuisine and meal type",
+      "Share recipes with friends",
+      "Mark recipes as favorite for quick access"
+    ],
+    "learningPath": ": Basic CRUD functionality, local storage, and data categorization.",
+    "openSourceFocus": ": Contributors can add custom filters, shareable links, and photo uploads."
+  },
+  {
+    "id": 159,
+    "difficulty": "Intermediate",
+    "title": "Customizable Budget Planner",
+    "description": ": A budget planner that allows users to create custom categories and track spending.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js for analytics."
+    ],
+    "features": [
+      "Add income and expenses by category",
+      "Customizable categories with budgets",
+      "Monthly spending analysis with charts",
+      "Export data to CSV or PDF"
+    ],
+    "learningPath": ": Financial data management, Firebase storage, and analytics.",
+    "openSourceFocus": ": Enables contributions in advanced analytics, custom templates, and recurring expense tracking."
+  },
+  {
+    "id": 160,
+    "difficulty": "Expert",
+    "title": "Decentralized Lending and Borrowing Platform",
+    "description": ": A decentralized platform for peer-to-peer lending with smart contract security.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "MetaMask",
+      "IPFS."
+    ],
+    "features": [
+      "Secure lending and borrowing with smart contracts",
+      "User profiles and credit rating system",
+      "Transaction history and analytics",
+      "Wallet integration for seamless payments"
+    ],
+    "learningPath": ": Blockchain lending, smart contract development, and transaction security.",
+    "openSourceFocus": ": Ideal for adding advanced credit algorithms"
+  },
+  {
+    "id": 161,
+    "difficulty": "Beginner",
+    "title": "Study Planner with Daily Reminders",
+    "description": ": A study planner that allows students to organize study tasks and receive reminders.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add tasks with deadlines",
+      "Daily reminders for study tasks",
+      "Organize tasks by subject or project",
+      "Track study time and completed tasks"
+    ],
+    "learningPath": ": CRUD functionality, local storage, and reminder notifications.",
+    "openSourceFocus": ": Great for adding study templates, scheduling options, and progress tracking."
+  },
+  {
+    "id": 162,
+    "difficulty": "Intermediate",
+    "title": "Real-Time Traffic Monitoring Dashboard",
+    "description": ": A traffic monitoring dashboard with live data on congestion and travel times.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Google Maps API",
+      "Firebase."
+    ],
+    "features": [
+      "Real-time traffic visualization on a map",
+      "Alerts for accidents and road closures",
+      "Live traffic analysis with charts",
+      "Travel time estimation and routing suggestions"
+    ],
+    "learningPath": ": Real-time map integration, data handling, and route optimization.",
+    "openSourceFocus": ": Contributors can add weather impacts, predictive analysis, and commute suggestions."
+  },
+  {
+    "id": 163,
+    "difficulty": "Expert",
+    "title": "AI-Powered Workout Planner",
+    "description": ": A workout planner that suggests exercises based on goals, fitness level, and past performance.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "TensorFlow.js."
+    ],
+    "features": [
+      "Personalized exercise recommendations",
+      "Progress tracking and workout analytics",
+      "Set goals and receive tailored plans",
+      "Video guides and exercise instructions"
+    ],
+    "learningPath": ": AI for recommendations, user customization, and fitness data analysis.",
+    "openSourceFocus": ": Ideal for adding more workout types, social sharing, and AI refinement."
+  },
+  {
+    "id": 164,
+    "difficulty": "Advanced Beginner",
+    "title": "Simple Job Application Tracker",
+    "description": ": A job application tracker to help users keep track of applications and interviews.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Track application stages (applied, interviewed, offered)",
+      "Add notes for each application",
+      "Organize by job title and company",
+      "Reminders for follow-ups"
+    ],
+    "learningPath": ": CRUD operations, local storage, and data filtering.",
+    "openSourceFocus": ": Contributors can add resume uploads, export options, and multi-step interview tracking."
+  },
+  {
+    "id": 165,
+    "difficulty": "Intermediate",
+    "title": "Community Forum with User Moderation",
+    "description": ": A community forum where users can post, comment, and vote, with built-in user moderation.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "Firebase."
+    ],
+    "features": [
+      "Create posts and comments with threading",
+      "Upvote/downvote for popular content",
+      "User moderation with reporting options",
+      "Profile pages and post history"
+    ],
+    "learningPath": ": Data handling, user interactions, and moderation.",
+    "openSourceFocus": ": Contributors can add admin tools, post categorization, and private messaging."
+  },
+  {
+    "id": 166,
+    "difficulty": "Expert",
+    "title": "AI-Powered Document Summarizer",
+    "description": ": A tool that summarizes lengthy documents using AI-based natural language processing.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "Upload and analyze documents for key points",
+      "Generate concise summaries",
+      "Sentiment analysis for tone",
+      "Save summaries and export to PDF"
+    ],
+    "learningPath": ": NLP for text summarization, sentiment analysis, and data storage.",
+    "openSourceFocus": ": Ideal for adding language support, advanced analysis, and document categorization."
+  },
+  {
+    "id": 167,
+    "difficulty": "Beginner",
+    "title": "Contact Manager with Import/Export",
+    "description": ": A contact manager where users can add, organize, and search contacts.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and edit contact details (name, phone, email)",
+      "Organize contacts by group",
+      "Search and filter contacts",
+      "Import/export to CSV"
+    ],
+    "learningPath": ": Data storage, organization, and file handling.",
+    "openSourceFocus": ": Contributors can add multi-contact editing, image support, and birthday reminders."
+  },
+  {
+    "id": 168,
+    "difficulty": "Intermediate",
+    "title": "AI-Based Stock Trading Assistant",
+    "description": ": An AI-powered stock trading assistant that gives real-time trading signals based on market trends.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for AI."
+    ],
+    "features": [
+      "Real-time stock data and trends",
+      "Buy/sell signals based on AI predictions",
+      "Historical price analysis",
+      "Portfolio tracking and management"
+    ],
+    "learningPath": ": Stock market APIs, AI for trend analysis, and data visualization.",
+    "openSourceFocus": ": Enables enhancements in AI prediction models, user analytics, and multi-stock tracking."
+  },
+  {
+    "id": 169,
+    "difficulty": "Advanced",
+    "title": "Supply Chain Management System with Blockchain",
+    "description": ": A blockchain-based supply chain system to track products from origin to delivery.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "IPFS",
+      "Ethereum",
+      "MetaMask."
+    ],
+    "features": [
+      "Track products and transactions on the blockchain",
+      "View product history with timestamps",
+      "Decentralized data storage on IPFS",
+      "Authentication with MetaMask for security"
+    ],
+    "learningPath": ": Blockchain for transparency, decentralized storage, and supply chain tracking.",
+    "openSourceFocus": ": Great for adding analytics, logistics tracking, and more data on product origins."
+  },
+  {
+    "id": 170,
+    "difficulty": "Beginner",
+    "title": "Workout Logger with Progress Analytics",
+    "description": ": A workout logging app to help users track exercises and measure progress over time.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Chart.js for analytics."
+    ],
+    "features": [
+      "Log exercises and sets/reps",
+      "Visualize progress with charts",
+      "Track goals and milestones",
+      "Weekly and monthly summaries"
+    ],
+    "learningPath": ": Data storage, chart integration, and tracking progress.",
+    "openSourceFocus": ": Contributors can add custom exercises, social sharing, and progress comparison tools."
+  },
+  {
+    "id": 171,
+    "difficulty": "Intermediate",
+    "title": "Personal Finance Dashboard with Forecasting",
+    "description": ": A finance dashboard with budgeting, expense tracking, and future expense forecasting.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js",
+      "and Machine Learning for predictions."
+    ],
+    "features": [
+      "Add income and expenses by category",
+      "Monthly forecasting and spending trends",
+      "Set financial goals and track progress",
+      "Visualize spending breakdowns with charts"
+    ],
+    "learningPath": ": Financial tracking, predictive analytics, and data visualization.",
+    "openSourceFocus": ": Ideal for adding forecasting improvements, personalized recommendations, and exporting options."
+  },
+  {
+    "id": 172,
+    "difficulty": "Expert",
+    "title": "Decentralized Voting Platform with Audit Logs",
+    "description": ": A secure, decentralized voting platform that ensures data integrity with blockchain.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "IPFS for data storage",
+      "Web3.js."
+    ],
+    "features": [
+      "Voter authentication via MetaMask",
+      "Secure, tamper-proof voting with audit trails",
+      "Real-time vote tallying and result display",
+      "Data storage on IPFS for added security"
+    ],
+    "learningPath": ": Blockchain for secure voting, decentralized storage, and audit logs.",
+    "openSourceFocus": ": Enables contributors to add privacy improvements, voting analytics, and internationalization."
+  },
+  {
+    "id": 173,
+    "difficulty": "Beginner",
+    "title": "Personal Movie Watchlist",
+    "description": ": A movie watchlist app where users can track movies they want to watch or have watched.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Movie Database API."
+    ],
+    "features": [
+      "Search movies by title or genre",
+      "Add movies to “To Watch” or “Watched” lists",
+      "Rate and review movies",
+      "View trending or popular movies"
+    ],
+    "learningPath": ": API integration, data categorization, and local storage.",
+    "openSourceFocus": ": Contributors can add movie recommendations, watch history analytics, and integration with streaming services."
+  },
+  {
+    "id": 174,
+    "difficulty": "Intermediate",
+    "title": "AI Resume Analyzer",
+    "description": ": A resume analyzer that provides suggestions for improvement based on industry standards.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "Upload resume and get AI-driven insights",
+      "Keyword analysis for job descriptions",
+      "Tips for optimizing sections",
+      "Custom reports for skill gaps"
+    ],
+    "learningPath": ": NLP for resume analysis, text processing, and MongoDB for data storage.",
+    "openSourceFocus": ": Ideal for adding industry-specific keywords, improvement tips, and resume templates."
+  },
+  {
+    "id": 175,
+    "difficulty": "Expert",
+    "title": "Blockchain-Based Voting System for Company Polls",
+    "description": ": A secure voting system for corporate governance, built on blockchain to ensure transparency.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "MetaMask."
+    ],
+    "features": [
+      "Employee verification through wallet",
+      "Voting and result recording on the blockchain",
+      "Role-based access control",
+      "Analytics for voter turnout and results"
+    ],
+    "learningPath": ": Blockchain-based governance, security features, and real-time analytics.",
+    "openSourceFocus": ": Contributors can add scalability solutions, data export, and advanced voting protocols."
+  },
+  {
+    "id": 176,
+    "difficulty": "Intermediate",
+    "title": "Language Learning App with Speech Recognition",
+    "description": ": A language learning app that provides exercises and tracks pronunciation using speech recognition.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Google Speech Recognition API."
+    ],
+    "features": [
+      "Vocabulary practice with translations",
+      "Speech recognition to check pronunciation",
+      "Flashcard exercises with spaced repetition",
+      "Progress tracking and milestones"
+    ],
+    "learningPath": ": Speech recognition, spaced repetition, and Firebase data management.",
+    "openSourceFocus": ": Great for adding new languages, advanced speech analysis, and gamified rewards."
+  },
+  {
+    "id": 177,
+    "difficulty": "Expert",
+    "title": "AI-Based SEO Content Analysis Tool",
+    "description": ": A tool to analyze website content and provide SEO improvement suggestions.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "OpenAI API for NLP."
+    ],
+    "features": [
+      "Analyze content for readability and SEO",
+      "Keyword density analysis and improvement tips",
+      "Track SEO performance over time",
+      "Generate keyword suggestions based on topic"
+    ],
+    "learningPath": ": NLP for SEO, text analysis, and data handling for web content.",
+    "openSourceFocus": ": Allows contributors to add new SEO metrics, competitor analysis, and content recommendations."
+  },
+  {
+    "id": 178,
+    "difficulty": "Intermediate",
+    "title": "Virtual Study Group Platform with Video Chat",
+    "description": ": A study group platform where users can join rooms, discuss topics, and collaborate via video.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "WebRTC for video chat",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create or join virtual study rooms",
+      "Real-time chat and video collaboration",
+      "Share notes and resources",
+      "Study session scheduling and reminders"
+    ],
+    "learningPath": ": Video streaming with WebRTC,",
+    "openSourceFocus": ""
+  },
+  {
+    "id": 179,
+    "difficulty": "Beginner",
+    "title": "Digital Recipe Card Organizer",
+    "description": ": A recipe organizer where users can create and categorize digital recipe cards.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add recipes with ingredients and instructions",
+      "Categorize by cuisine, meal type, and difficulty",
+      "Search and filter recipes",
+      "Mark favorites for quick access"
+    ],
+    "learningPath": ": CRUD functionality, data filtering, and local storage.",
+    "openSourceFocus": ": Contributors can add export options, ingredient tracking, and integration with meal planners."
+  },
+  {
+    "id": 180,
+    "difficulty": "Advanced Beginner",
+    "title": "Personal Journal with Photo Entries",
+    "description": ": A journaling app where users can log entries with optional photos.",
+    "techStack": [
+      ": React",
+      "Firebase for storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Write journal entries with rich text",
+      "Attach photos to entries",
+      "Calendar view for entry organization",
+      "Search and filter by tags"
+    ],
+    "learningPath": ": Data storage, file handling, and rich text editing.",
+    "openSourceFocus": ": Great for adding sentiment analysis, export features, and photo albums."
+  },
+  {
+    "id": 181,
+    "difficulty": "Expert",
+    "title": "Real-Time Forex Trading Platform with Analytics",
+    "description": ": A forex trading platform with real-time market data and analytical tools for currency trading.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Forex API",
+      "TensorFlow.js."
+    ],
+    "features": [
+      "Real-time forex rates and historical data",
+      "Analytics and AI-driven predictions",
+      "Customizable alerts for currency changes",
+      "Trading simulation with virtual currency"
+    ],
+    "learningPath": ": Real-time forex data, AI predictions, and financial analytics.",
+    "openSourceFocus": ": Enables community to add algorithmic trading, charting tools, and sentiment analysis."
+  },
+  {
+    "id": 182,
+    "difficulty": "Intermediate",
+    "title": "Family Recipe Sharing App",
+    "description": ": A platform for families to store and share recipes, preserving family traditions.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Share and comment on family recipes",
+      "Organize recipes by family member",
+      "Image uploads and recipe history",
+      "Private and public recipe sharing"
+    ],
+    "learningPath": ": Data sharing, image storage, and user authentication.",
+    "openSourceFocus": ": Contributions can include multi-family support, recipe timelines, and family cookbooks."
+  },
+  {
+    "id": 183,
+    "difficulty": "Advanced Beginner",
+    "title": "Mood-Based Music Recommendation",
+    "description": ": A music recommendation app that suggests playlists based on the user’s current mood.",
+    "techStack": [
+      ": React",
+      "Spotify API",
+      "Firebase."
+    ],
+    "features": [
+      "Set mood and receive playlist suggestions",
+      "Save favorite playlists for easy access",
+      "View and share top recommendations",
+      "Simple UI with mood-based color themes"
+    ],
+    "learningPath": ": API integration, data filtering, and user interaction.",
+    "openSourceFocus": ": Allows contributors to add mood analysis, new music sources, and playlist export options."
+  },
+  {
+    "id": 184,
+    "difficulty": "Intermediate",
+    "title": "Team Project Management with Gantt Chart",
+    "description": ": A project management tool where teams can assign tasks, track progress, and visualize schedules with a Gantt chart.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js."
+    ],
+    "features": [
+      "Assign tasks and set deadlines",
+      "View project timelines in Gantt charts",
+      "Progress tracking with completion metrics",
+      "Team notifications for task updates"
+    ],
+    "learningPath": ": Project management visualization, Firebase for data persistence, and team collaboration.",
+    "openSourceFocus": ": Contributors can add dependency tracking, real-time notifications, and custom task filtering."
+  },
+  {
+    "id": 185,
+    "difficulty": "Expert",
+    "title": "AI-Driven Email Categorization Tool",
+    "description": ": A tool that categorizes and prioritizes emails using AI for smarter inbox management.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "TensorFlow.js for NLP."
+    ],
+    "features": [
+      "AI-based categorization (e.g., work, personal, spam)",
+      "Priority tagging for important emails",
+      "Email analytics with visual summaries",
+      "Automated response suggestions"
+    ],
+    "learningPath": ": NLP for email categorization, data handling, and productivity analytics.",
+    "openSourceFocus": ": Great for adding new tags, advanced sorting, and integrating with popular email services."
+  },
+  {
+    "id": 186,
+    "difficulty": "Beginner",
+    "title": "Virtual Flashcard Study Tool",
+    "description": ": A study tool for creating and reviewing flashcards with progress tracking.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create and categorize flashcards by subject",
+      "Review flashcards in spaced repetition mode",
+      "Track accuracy and study progress",
+      "Customizable flashcard themes"
+    ],
+    "learningPath": ": Local storage for persistence, spaced repetition, and flashcard UI.",
+    "openSourceFocus": ": Contributors can add multi-user support, custom flashcard templates, and theme customization."
+  },
+  {
+    "id": 187,
+    "difficulty": "Intermediate",
+    "title": "Blogging Platform with Real-Time Commenting",
+    "description": ": A blogging platform that allows users to publish posts and interact with real-time comments.",
+    "techStack": [
+      ": Next.js",
+      "Firebase for real-time data",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Post creation and rich text editing",
+      "Real-time comments with notifications",
+      "User profiles with post history",
+      "Popular tags and trending posts"
+    ],
+    "learningPath": ": Real-time data, rich text editing, and user interactions.",
+    "openSourceFocus": ": Ideal for adding sharing options, custom tags, and multi-language support."
+  },
+  {
+    "id": 188,
+    "difficulty": "Expert",
+    "title": "Smart Contracts for Insurance Claims",
+    "description": ": A blockchain-based insurance claim platform with smart contracts to automate claims and payouts.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "Web3.js."
+    ],
+    "features": [
+      "Smart contracts for transparent claim validation",
+      "Decentralized payment processing for claims",
+      "Claim history and audit trail",
+      "Wallet integration for secure identity verification"
+    ],
+    "learningPath": ": Blockchain for smart contracts, decentralized finance, and secure payments.",
+    "openSourceFocus": ": Supports improvements in risk assessment, claims analytics, and multi-insurance support."
+  },
+  {
+    "id": 189,
+    "difficulty": "Beginner",
+    "title": "Goal Setting and Tracking App",
+    "description": ": A goal-setting app that helps users set, track, and achieve personal goals.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Set and categorize personal goals",
+      "Progress tracking and completion history",
+      "Notifications for milestones",
+      "Simple UI with motivational themes"
+    ],
+    "learningPath": ": Data persistence, notifications, and UI design.",
+    "openSourceFocus": ": Contributors can add goal templates, social sharing, and group challenges."
+  },
+  {
+    "id": 190,
+    "difficulty": "Intermediate",
+    "title": "Health Data Tracker with Wearable Integration",
+    "description": ": A health data tracker that syncs with wearable devices to monitor activity, sleep, and vitals.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Google Fit API",
+      "Chart.js."
+    ],
+    "features": [
+      "Sync data from wearable devices",
+      "Weekly and monthly health reports",
+      "Goal setting for steps, sleep, and heart rate",
+      "Visual data representation with charts"
+    ],
+    "learningPath": ": API integration with wearables, health data visualization, and Firebase.",
+    "openSourceFocus": ": Ideal for adding more device compatibility, custom goals, and export options."
+  },
+  {
+    "id": 191,
+    "difficulty": "Expert",
+    "title": "Multi-Currency E-commerce Platform",
+    "description": ": An e-commerce platform that supports multiple currencies and real-time conversion rates.",
+    "techStack": [
+      ": Next.js",
+      "Node.js",
+      "MongoDB",
+      "Exchange Rate API",
+      "Stripe for payments."
+    ],
+    "features": [
+      "Product catalog with multi-currency support",
+      "Real-time currency conversion based on user location",
+      "Cart and checkout with Stripe integration",
+      "Transaction history and order tracking"
+    ],
+    "learningPath": ": Multi-currency handling, payment integration, and conversion rates.",
+    "openSourceFocus": ": Contributors can add additional payment methods, language support, and product recommendations."
+  },
+  {
+    "id": 192,
+    "difficulty": "Beginner",
+    "title": "Minimalist Daily Planner",
+    "description": ": A simple daily planner for organizing tasks and events.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Add and organize daily tasks",
+      "Set reminders for important tasks",
+      "Color-coded categories for easy organization",
+      "Dark mode for night usage"
+    ],
+    "learningPath": ": CRUD operations, local storage, and reminders.",
+    "openSourceFocus": ": Great for adding task prioritization, recurring events, and multiple calendar views."
+  },
+  {
+    "id": 193,
+    "difficulty": "Intermediate",
+    "title": "E-learning Platform with Video Courses",
+    "description": ": An online learning platform where users can enroll in courses and track progress.",
+    "techStack": [
+      ": Next.js",
+      "Firebase",
+      "Tailwind CSS",
+      "Video.js for video playback."
+    ],
+    "features": [
+      "Course creation and enrollment",
+      "Video playback with progress tracking",
+      "Quizzes and assessments for each module",
+      "Completion certificates and badges"
+    ],
+    "learningPath": ": Video streaming, user progress tracking, and course management.",
+    "openSourceFocus": ": Allows for the addition of new courses, quiz templates, and user interaction analytics."
+  },
+  {
+    "id": 194,
+    "difficulty": "Expert",
+    "title": "Real Estate Marketplace with Virtual Tours",
+    "description": ": A real estate marketplace with virtual tours to enhance the home-viewing experience.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "Firebase",
+      "Three.js for 3D tours."
+    ],
+    "features": [
+      "Property listings with detailed descriptions",
+      "Interactive virtual tours with 3D views",
+      "Property comparison tool",
+      "Save and share favorite properties"
+    ],
+    "learningPath": ": 3D rendering with Three.js, Firebase for data storage, and user interaction.",
+    "openSourceFocus": ": Ideal for adding custom tour features, real estate analytics, and agent profiles."
+  },
+  {
+    "id": 195,
+    "difficulty": "Advanced Beginner",
+    "title": "Music Player with Lyrics Display",
+    "description": ": A music player that displays lyrics in sync with the song.",
+    "techStack": [
+      ": React",
+      "Spotify API",
+      "Lyrics API."
+    ],
+    "features": [
+      "Stream music with Spotify integration",
+      "Lyrics display in sync with playback",
+      "Save favorite songs and lyrics",
+      "Customize playback speed and quality"
+    ],
+    "learningPath": ": API integration, music streaming, and user interaction.",
+    "openSourceFocus": ": Contributors can add karaoke mode, theme customization, and song recommendations."
+  },
+  {
+    "id": 196,
+    "difficulty": "Intermediate",
+    "title": "Smart Home Control Dashboard",
+    "description": ": A dashboard for controlling smart home devices like lights, thermostat, and security.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "IoT API",
+      "MQTT for device communication."
+    ],
+    "features": [
+      "Real-time control of smart devices",
+      "Temperature, light, and security monitoring",
+      "Device scheduling and automation",
+      "User alerts for device status"
+    ],
+    "learningPath": ": IoT integration, real-time data handling, and smart device control.",
+    "openSourceFocus": ": Great for adding multi-device compatibility, custom alerts, and energy-saving tips."
+  },
+  {
+    "id": 197,
+    "difficulty": "Expert",
+    "title": "Decentralized Content Sharing Platform",
+    "description": ": A decentralized platform where users can share and monetize content without a centralized authority.",
+    "techStack": [
+      ": Solidity",
+      "React",
+      "Ethereum",
+      "IPFS for storage",
+      "MetaMask."
+    ],
+    "features": [
+      "Decentralized content hosting with IPFS",
+      "Wallet-based tipping for monetization",
+      "User profiles with content history",
+      "Transaction transparency and history"
+    ],
+    "learningPath": ": Blockchain for",
+    "openSourceFocus": ""
+  },
+  {
+    "id": 198,
+    "difficulty": "Beginner",
+    "title": "Countdown to Events",
+    "description": ": An app that allows users to create countdowns for important events.",
+    "techStack": [
+      ": React",
+      "Local Storage",
+      "Tailwind CSS."
+    ],
+    "features": [
+      "Create multiple countdowns for events",
+      "Customizable reminders for each countdown",
+      "Visual themes for different event types",
+      "Track time left in days, hours, and minutes"
+    ],
+    "learningPath": ": Timer logic, data persistence, and notifications.",
+    "openSourceFocus": ": Contributors can add recurring countdowns, social sharing, and color-coded events."
+  },
+  {
+    "id": 199,
+    "difficulty": "Intermediate",
+    "title": "Fitness Progress Tracker with Photo Comparisons",
+    "description": ": A fitness tracker where users can log workouts, and upload progress photos.",
+    "techStack": [
+      ": React",
+      "Firebase",
+      "Chart.js for data visualization."
+    ],
+    "features": [
+      "Log workouts and goals by date",
+      "Track progress with weight, reps, and sets",
+      "Upload and compare progress photos",
+      "Visual analytics for workout trends"
+    ],
+    "learningPath": ": Data storage, photo handling, and progress visualization.",
+    "openSourceFocus": ": Contributors can add workout templates, custom goal setting, and community challenges."
+  },
+  {
+    "id": 200,
+    "difficulty": "Expert",
+    "title": "AI-Powered Legal Document Analysis Tool",
+    "description": ": A tool that scans legal documents and highlights key clauses, risks, and obligations.",
+    "techStack": [
+      ": React",
+      "Node.js",
+      "MongoDB",
+      "OpenAI API for NLP."
+    ],
+    "features": [
+      "Document scanning with NLP analysis",
+      "Highlight key clauses and risk indicators",
+      "Custom alerts for deadlines and obligations",
+      "Save and organize scanned documents"
+    ],
+    "learningPath": ": NLP for legal language, risk analysis, and document handling.",
+    "openSourceFocus": ": Allows for the addition of industry-specific clause detection, contract templates, and collaboration features."
+  }
+]

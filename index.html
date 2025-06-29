@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200 - Пет</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Идеи для пет-проектов</h1>
+            <p>200 идей с разными уровнями</p>
+            <a href="https://www.instagram.com/eldar.xc" target="_blank" class="contact-button">
+                Связаться с автором
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="daily-task-section">
+            <h2>Задача дня 🔥</h2>
+            <div id="dailyTask" class="task-card daily-task-card">
+                </div>
+        </section>
+
+        <section class="filters-section">
+            <h3>Фильтры</h3>
+            <div class="difficulty-legend">
+                <div class="difficulty Beginner">Beginner 😆</div>
+                <div class="difficulty AdvancedBeginner">Advanced Beginner 😊</div>
+                <div class="difficulty Intermediate">Intermediate 😓</div>
+                <div class="difficulty Advanced">Advanced 😭</div>
+                <div class="difficulty Expert">Expert 💀</div>
+            </div>
+            <div class="filters">
+                <select id="difficultyFilter">
+                    <option value="all">Все уровни</option>
+                    <option value="Beginner">✪ Beginner </option>
+                    <option value="Advanced Beginner">✪✪ Advanced Beginner</option>
+                    <option value="Intermediate">✪✪✪ Intermediate</option>
+                    <option value="Advanced">✪✪✪✪ Advanced</option>
+                    <option value="Expert">✪✪✪✪✪ Expert</option>
+                </select>
+                <input type="text" id="searchBar" placeholder="Поиск по названию или описанию...">
+                <button id="resetFilters">Сбросить фильтры</button>
+            </div>
+        </section>
+
+        <section class="tasks-list-section">
+            <h2>Все проекты</h2>
+            <div id="taskList" class="tasks-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Eldar. Все права защищены.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/eldar.xc" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/eldar-05" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
